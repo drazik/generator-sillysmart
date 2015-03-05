@@ -1,0 +1,25 @@
+﻿Install
+=======
+
+Server configuration
+------------
+
+    * Apache
+		* mod_rewrite (optional, for pretty URLs)
+    * PHP5+
+		* php_xsl
+		* php_apc (optional, for pretty file upload)
+	* MySQL5+ (optional, if you need a database)
+	
+Installation
+------------
+
+    * untar the archive
+    * set write access on root directory, for apache
+    * install the framework step by step
+
+Details
+------------
+
+	* http://redmine.sillysmart.org
+doc    * http://www.sillysmart.org

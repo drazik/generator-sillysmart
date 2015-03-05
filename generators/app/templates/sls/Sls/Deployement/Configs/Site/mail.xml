@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mails>
+  <host isSecure="true" js="false" />
+  <port isSecure="true" js="false" />
+  <username isSecure="true" js="false" />
+  <password isSecure="true" js="false" />
+  <defaultDomain isSecure="false" js="false" />
+  <defaultReturn isSecure="false" js="false" />
+  <defaultNameReturn isSecure="false" js="false" />
+  <defaultReply isSecure="false" js="false" />
+  <defaultNameReply isSecure="false" js="false" />
+  <defaultSender isSecure="false" js="false" />
+  <defaultNameSender isSecure="false" js="false" />
+  <templates isSecure="false" js="false" />
+</mails>

@@ -1,0 +1,51 @@
+<?php
+/**
+ * Generic Sls Vars
+ */
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_MONDAY'] = "monday";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_TUESDAY'] = "tuesday";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_WEDNESDAY'] = "wednesday";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_THURSDAY'] = "thursday";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_FRIDAY'] = "friday";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_SATURDAY'] = "saturday";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_SUNDAY'] = "sunday";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_JANUARY'] = "january";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_FEBRUARY'] = "february";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_MARCH'] = "march";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_APRIL'] = "april";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_MAY'] = "may";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_JUNE'] = "june";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_JULY'] = "july";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_AUGUST'] = "august";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_SEPTEMBER'] = "september";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_OCTOBER'] = "october";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_NOVEMBER'] = "november";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DECEMBER'] = "december";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_PATTERN_TIME'] = "H:i:s";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_PATTERN_FULL_TIME'] = "y-m-d H:i:s";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_PATTERN_DATE'] = "y-m-d";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_PATTERN_MONTH_LITTERAL'] = "d F y";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_PATTERN_FULL_LITTERAL'] = "l d F y";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_PATTERN_FULL_LITTERAL_TIME'] = "l d F y H:i:s";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_PATTERN_MONTH_LITTERAL_TIME'] = "d F y H:i:s";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_DIFF_Y'] = "year(s)";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_DIFF_M'] = "month(s)";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_DIFF_W'] = "week(s)";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_DIFF_D'] = "day(s)";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_DIFF_H'] = "hour(s)";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_DIFF_I'] = "minute(s)";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_DATE_DIFF_S'] = "second(s)";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_CONTENT'] = "bad content";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_EMPTY'] = "can't be empty";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_KEY'] = "doesn't respect integrity constraint";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_COMPLEXITY'] = "doesn't respect complexity constraint";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_LENGTH'] = "can't respect length constraint";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_NULL'] = "can't be null";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_UNIQUE'] = "must be unique";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_TYPE'] = "hasn't the good type";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_SIZE'] = "exceeds the maximum allowed size";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_EXIST'] = "is not found";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_WRITE'] = "Failed to write file to disk";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_LOGGED'] = "You need to be authenticated to perform this action.";
+$GLOBALS[$GLOBALS['PROJECT_NAME']]['JS']['SLS_E_AUTHORIZED'] = "You haven't enough privilege to perform this action.";
+?>

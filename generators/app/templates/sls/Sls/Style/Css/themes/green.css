@@ -1,0 +1,53 @@
+.sls-bo-color {
+    background-color: #79B51C !important;
+    color: #fff !important;
+}
+
+.sls-bo-color-pseudo-before:before {
+    background-color: #79B51C !important;
+}
+
+.sls-bo-color-border,
+.sls-bo-color-border-hover:hover,
+:hover > .sls-bo-color-border-hover,
+.sls-bo-color-parent:hover .sls-bo-color-border-hover {
+    border-color: #79B51C !important;
+}
+
+.opened > .sls-bo-color-opened,
+.opened > .sls-bo-color-hover,
+.selected > .sls-bo-color-hover,
+.sls-bo-color-hover.opened,
+.sls-bo-color-hover.selected,
+.sls-bo-color-hover:hover {
+    background-color: #79B51C !important;
+    color: #fff !important;
+}
+
+.sls-bo-color-text {
+    color: #79B51C !important;
+}
+
+.selected > .sls-bo-color-text-hover,
+.sls-bo-color-text-hover.selected,
+.sls-bo-color-text-hover:hover {
+    color: #79B51C !important;
+}
+
+.sls-bo-color-trigger:hover ~ .sls-bo-color-prevDependent-hover {
+    background-color: #79B51C !important;
+}
+
+#sls-bo-view .sls-bo-listing-recordset:hover .sls-bo-listing-cell + .sls-bo-listing-cell,
+#sls-bo-view .sls-bo-dashboard-module-content .sls-bo-listing-recordset:hover .sls-bo-listing-cell {
+    background-color: rgba(121, 181, 28, 0.1) !important;
+}
+
+#sls-bo-view .sls-bo-listing-recordset.checked .sls-bo-listing-cell + .sls-bo-listing-cell {
+    background-color: rgba(121, 181, 28, 0.15);
+}
+
+#sls-bo-toolbar .selected > .category-title:before {
+	background-color: #79B51C;
+	color: #79B51C;
+}

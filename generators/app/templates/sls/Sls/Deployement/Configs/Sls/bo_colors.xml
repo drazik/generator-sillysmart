@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<sls_configs>
+	<template name="pink" hexa="#FE405E">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#FE405E" td="#FFECEF|#FAFAFA" />
+	</template>
+	<template name="brown" hexa="#B4A294">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#B4A294" td="#EDE8E4|#FAFAFA" />
+	</template>
+	<template name="green_light" hexa="#BDCD00">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#BDCD00" td="#FDFFE1|#FAFAFA" />
+	</template>
+	<template name="orange" hexa="#F9B200">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#F9B200" td="#FFFAEA|#FAFAFA" />
+	</template>
+	<template name="cyan" hexa="#79ADB6">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#79ADB6" td="#EBF2F3|#FAFAFA" />
+	</template>
+	<template name="mauve" hexa="#A29EDC">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#A29EDC" td="#F2F1FA|#FAFAFA" />
+	</template>
+	<template name="red" hexa="#E45C5C">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#E45C5C" td="#F9DBDB|#FAFAFA" />
+	</template>
+	<template name="turquoise" hexa="#00B0B2">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#00B0B2" td="#ECFFFF|#FAFAFA" />
+	</template>
+	<template name="green" hexa="#79B51C">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#79B51C" td="#EAF9D2|#FAFAFA" />
+	</template>
+	<template name="purple" hexa="#870D56">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#870D56" td="#FCDCEF|#FAFAFA" />
+	</template>
+	<template name="dark_orange" hexa="#ED9961">
+		<color th="#FFFFFF" td="#404B57" />
+		<bgcolor th="#ED9961" td="#FBE9DD|#FAFAFA" />
+	</template>
+    <template name="blue" hexa="#5D8ECB">
+        <color th="#FFFFFF" td="#404B57" />
+        <bgcolor th="#5D8ECB" td="#DEE8F3|#FAFAFA" />
+    </template>
+</sls_configs>

@@ -1,0 +1,352 @@
+.sls-date-picker {
+	position: absolute;
+	width: 240px;
+	height: 190px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	font-size: 11px;
+	line-height: normal;
+	z-index: 3003;
+}
+	
+.sls-date-picker.column_2 {
+	width: 440px;
+}
+
+.sls-date-picker.column_3 {
+	width: 660px;
+}
+
+.sls-date-picker.column_4 {
+	width: 880px;
+}
+
+.sls-date-picker.column_5 {
+	width: 1100px;
+}
+
+.sls-date-picker th,
+.sls-date-picker td {
+	margin: 0;
+	padding: 0;
+}
+
+.sls-date-picker .selected {
+	background: #95adb8 !important;
+	color: #fff !important;
+}
+
+.sls-date-picker .unavailable,
+.sls-date-picker .day.unavailable:hover {
+	background: #edd !important;
+	color: #b88 !important;
+	cursor: default !important;
+}
+
+.sls-date-picker td.day:hover,
+.sls-date-picker .month:hover,
+.sls-date-picker .year:hover {
+	background: #c6d2d8 !important;
+	color: #222 !important;
+}
+
+/*
+	Header
+*/
+.sls-date-picker .header {
+	position: relative;
+	background: #404b57;
+	height: 34px;
+}
+
+.sls-date-picker .header .title {
+	text-align: center;
+	line-height: 34px;
+}
+
+.sls-date-picker .header .titleText {
+	color: #fff;
+	font-size: 13px;
+	font-family: "GothamBold";
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.8);
+}
+
+.sls-date-picker .header .next,
+.sls-date-picker .header .previous,
+.sls-date-picker .header .closeButton {
+	position: absolute;
+	top: 0;
+	width: 34px;
+	height: 34px;
+	font-size: 0;
+	cursor: pointer;
+}
+
+.sls-date-picker .header .previous:before,
+.sls-date-picker .header .next:before {
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 0;
+	display: block;
+	top: 50%;
+	margin-top: -3.5px;
+}
+
+.sls-date-picker .header .previous {
+	left: 0;
+}
+
+.sls-date-picker .header .previous:before {
+	left: 14px;
+	border-top: 3px solid  transparent;
+	border-bottom: 3px solid  transparent;
+	border-right: 4px solid #fff;
+}
+
+.sls-date-picker .header .next {
+	right: 0;
+}
+
+.sls-date-picker .header .next:before {
+	right: 14px;
+	border-top: 3px solid  transparent;
+	border-bottom: 3px solid  transparent;
+	border-left: 4px solid #fff;
+}
+
+.sls-date-picker .header .closeButton {
+	right: 0;
+	display: none;
+}
+
+/*
+	Body
+*/
+.sls-date-picker .body {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 156px;
+	overflow: hidden;
+}
+
+.sls-date-picker .body .column {
+	float: left;
+	width: 240px;
+	height: 100%;
+}
+
+.sls-date-picker .body .column.column_1 {
+}
+
+/*
+	Days
+*/
+.sls-date-picker .days {
+	width: 100%;
+	border: 0;
+	border-spacing: 0;
+	border-collapse: separate;
+}
+
+.sls-date-picker .days .title {
+	text-transform: uppercase;
+	font-family: "Arial";
+	font-size: 10px;
+	font-weight: bold;
+	color: #fff;
+	cursor: default;
+	width: 14.2857142857143%; /* 100/7 */
+	border: none;
+}
+
+.sls-date-picker .days.weeknumbers .title {
+	width: 12.5%;
+}
+
+.sls-date-picker .days .otherMonth {
+	color: #9ca2a8;
+}
+
+.sls-date-picker .day {
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	line-height: 19px;
+	color: #404b57;
+	font-size: 11px;
+	font-family: "Arial";
+	font-weight: bold;
+	border: 2px solid transparent;
+}
+
+.sls-date-picker .today {
+	border: 2px solid inherit;
+}
+
+.sls-date-picker .day0 {
+	margin-right: 0;
+}
+
+.sls-date-picker .days .week5 .day {
+	margin-bottom: 0;
+}
+
+/*
+	Months
+*/
+.sls-date-picker .months {
+	width: 100%;
+	height: 100%;
+	border-collapse: separate;
+}
+
+.sls-date-picker .month {
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	line-height: 19px;
+	color: #404b57;
+	font-size: 11px;
+	font-family: "Arial";
+	font-weight: bold;
+	border: 2px solid transparent;
+	vertical-align: middle;
+}
+
+/*
+	Years
+*/
+.sls-date-picker .years {
+	width: 100%;
+	height: 100%;
+	border-collapse: separate;
+}
+
+.sls-date-picker .year {
+	cursor: pointer;
+	text-align: center;
+	overflow: hidden;
+	line-height: 19px;
+	color: #404b57;
+	font-size: 11px;
+	font-family: "Arial";
+	font-weight: bold;
+	border: 2px solid transparent;
+	vertical-align: middle;
+}
+
+/*
+	Time
+*/
+.sls-date-picker .time {
+	width: 100%;
+	background: #fff;
+}
+
+.sls-date-picker .time .hour,
+.sls-date-picker .time .separator,
+.sls-date-picker .time .minutes {
+	position: absolute;
+	top: 30px;
+	width: 50px;
+	border: 1px dashed #ddd;
+	font-size: 32px;
+	text-align: center;
+	color: #404B57;
+	font-family: "GothamMedium";
+}
+
+.sls-date-picker .time .hour {
+	left: 55px;
+}
+
+.sls-date-picker .time .separator {
+	background: transparent;
+	border: 0px;
+	width: 10px;
+	left: 110px;
+}
+
+.sls-date-picker .time .minutes {
+	left: 130px;
+}
+
+.sls-date-picker .time .ok {
+	position: absolute;
+	top: 105px;
+	width: 136px;
+	left: 50px;
+	display: block;
+	height: 22px;
+	line-height: 22px !important;
+	color: #fff !important;
+	font-size: 12px;
+	font-family: "GothamMedium";
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.45);
+	cursor: pointer;
+}
+
+/*
+	Footer
+*/
+.sls-date-picker.footer {
+	height: 260px;
+}
+
+.sls-date-picker .footer {
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+
+.sls-date-picker .footer input,
+.sls-date-picker .footer button {
+	float: left;
+	display: block;
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	margin: 0;
+	padding: 8px 0;
+	border: 0;
+	background-color: #fff;
+	text-align: center;
+}
+	.sls-date-picker .footer input:focus {
+		outline: 0;
+	}
+
+.sls-date-picker .footer span {
+	display: none;
+}
+
+.sls-date-picker .footer input {
+	height: 14px;
+}
+
+.sls-date-picker .footer button {
+	height: 30px;
+	line-height: 30px;
+	padding: 0;
+	border-top: 1px solid #eee;
+	cursor: pointer;
+}
+
+.sls-date-picker .footer button:hover {
+	background: #c6d2d8;
+}
+
+.sls-date-picker .footer .apply {
+	background-color: #95adb8;
+	color: #fff;
+	font-weight: bold;
+}
+
+.sls-date-picker .footer .apply:hover {
+	background-color: #82a7b8;
+}

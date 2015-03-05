@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+  <domainName isSecure="false" js="true" />
+  <projectName isSecure="false" js="true" />
+  <versionName isSecure="false" js="true" />
+  <protocol isSecure="false" js="true" />
+  <metaDescription isSecure="false" js="false" />
+  <metaKeywords isSecure="false" js="false" />
+  <metaAuthor isSecure="false" js="false" />
+  <metaCopyright isSecure="false" js="false" />
+  <defaultExtension isSecure="true" js="false" />
+  <defaultCharset isSecure="true" js="false" />
+  <defaultDoctype isSecure="true" js="false" />
+  <defaultLang isSecure="false" js="false" />
+  <privateKey isSecure="true" js="false" />
+  <langs isSecure="false" js="false" />
+  <google isSecure="false" js="false">
+    <setting isSecure="false" js="true" name="ua" />
+    <setting isSecure="true" js="false" name="apiKey" />
+    <setting isSecure="true" js="false" name="clientId" />
+    <setting isSecure="true" js="false" name="accountId" />
+  </google>
+  <isProd isSecure="false" js="false"><![CDATA[0]]></isProd>
+  <domainSession isSecure="true" js="false" />
+  <defaultTimezone isSecure="false" js="false" />
+  <activeCache isSecure="false" js="false"><![CDATA[0]]></activeCache>
+  <activeMaintenance isSecure="false" js="false"><![CDATA[0]]></activeMaintenance>
+  <activeMonitoring isSecure="false" js="false"><![CDATA[0]]></activeMonitoring>
+  <defaultLoadStaticsJavascript isSecure="false" js="false"><![CDATA[1]]></defaultLoadStaticsJavascript>
+  <defaultLoadDynsJavascript isSecure="false" js="false"><![CDATA[0]]></defaultLoadDynsJavascript>
+  <defaultBuildConfigsJsVars isSecure="false" js="false"><![CDATA[1]]></defaultBuildConfigsJsVars>
+  <defaultMultilanguageJavascript isSecure="false" js="false"><![CDATA[1]]></defaultMultilanguageJavascript>
+  <defaultLoadIE6Javascript isSecure="false" js="false"><![CDATA[1]]></defaultLoadIE6Javascript>
+</configs>

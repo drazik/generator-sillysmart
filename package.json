@@ -1,0 +1,13 @@
+{
+  "name": "generator-sillysmart",
+  "version": "0.1.0",
+  "description": "Yeoman generator to kickstart a SillySmart Project",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "Cyrille Perois",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^0.18.9"
+  }
+}

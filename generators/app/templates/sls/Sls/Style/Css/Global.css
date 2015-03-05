@@ -1,0 +1,368 @@
+body {
+	background:  #f4f4f4 url(../Img/Backgrounds/body.jpg) left repeat-y;
+	font-family: "Franklin Gothic Book", "Tahoma", Helvetica, Arial;
+	padding:     0;
+	margin:      0;
+	color:       #a2a2a2;
+	font-size:   1em;
+}
+div#header {
+	background:    #b3b3b3 url(../Img/Backgrounds/header.jpg) repeat-x;
+	width:         100%;
+	height:        100px;
+	border-bottom: 1px solid #000;
+}
+div#header div#logo {
+	display:    block;
+	float:      left;
+	margin:     0 35px 0 35px;
+	width:      95px;
+	height:     100px;
+	background: transparent url(../Img/Logos/leftFrame.jpg) no-repeat top;
+}
+div#header div#baseline {
+	display:    block;
+	float:      left;
+	width:      170px;
+	height:     40px;
+	background: url(../Img/Logos/baseline.png) no-repeat center;
+	margin:     30px 0 0 35px;
+}
+div#header div.logout {
+	display: block;
+	float:   right;
+	margin:  80px 5px 0 0;
+	color:   #fff;
+}
+div#header div.logout span {
+	font-weight: bold;
+}
+div#main {
+	display: block;
+	width:   100%;
+}
+div#main ul#globalMenu {
+	display:   block;
+	width:     140px;
+	margin:    55px 0 0 10px;
+	float:     left;
+	font-size: 0.9em;
+}
+div#main ul#globalMenu li {
+	display: block;
+	width:   100%;
+}
+div#main ul#globalMenu a {
+	display: block;
+	padding: 10px 5px;
+	width:   130px;
+	color:   #B3B3B3;
+}
+div#main ul#globalMenu a span.version {
+	font-size:  12px;
+	font-style: italic;
+	color:      #D97878;
+}
+div#main ul#globalMenu a:hover,
+div#main ul#globalMenu a.selected {
+	color:            #820000;
+	background-color: #F4F4F4;
+}
+div#main ul#globalMenu li ul.submenu {
+	display:     block;
+	width:       110px;
+	margin-left: 15px;
+}
+div#main ul#globalMenu li ul.submenu li {
+	display: block;
+	width:   100%;
+}
+div#main ul#globalMenu li ul.submenu li a {
+	display: block;
+	padding: 5px;
+	width:   100px;
+}
+div#main div#rightSide {
+	display:          block;
+	margin-left:      165px;
+	background-color: #f4f4f4;
+}
+div#main div#rightSide div#container {
+	display:     block;
+	float:       left;
+	margin-left: 40px;
+	margin-top:  40px;
+}
+div#breadcrumbs {
+	display:       block;
+	color:         #a5a5a5;
+	font-size:     0.8em;
+	margin-bottom: 10px;
+}
+div#breadcrumbs span {
+	font-size: 1em;
+}
+div#breadcrumbs span.focus {
+	color: #a41f1f;
+}
+div#breadcrumbs img {
+	margin: 0 5px 0 5px;
+}
+h1 {
+	padding:     0;
+	margin:      0;
+	font-size:   1.4em;
+	color:       #676767;
+	font-weight: 900;
+}
+h2 {
+	padding:     0;
+	margin:      0;
+	font-size:   1.2em;
+	font-weight: 100;
+	color:       #a5a5a5;
+}
+
+a {
+	color:           #820000;
+	text-decoration: none;
+	outline:         none;
+}
+.disabled {
+	opacity: 0.7;
+}
+a img {
+	border: 0;
+}
+fieldset {
+	padding: 10px;
+	margin:  10px 0 10px 0;
+}
+fieldset legend {
+	padding:        0 5px 0 5px;
+	color:          #d97878;
+	text-transform: uppercase;
+	font-size:      0.9em;
+	font-weight:    100;
+}
+fieldset.sls_init_form {
+	width: 750px;
+}
+ul {
+	padding: 0;
+	margin:  0;
+}
+ul li {
+	list-style: none;
+	margin:     0;
+	padding:    0;
+}
+ul.ul_table {
+	float: left;
+	width: 100%;
+}
+ul.ul_table li {
+	display: block;
+	float:   left;
+	width:   100%;
+}
+ul.ul_table li span {
+	display: block;
+	float:   left;
+}
+ul#directoriesList {
+	width:  710px;
+	margin: 10px 20px 10px 20px;
+}
+div#buttons_panel {
+	display: block;
+	float:   left;
+	width:   710px;
+	margin:  10px 20px 10px 20px;
+}
+div#buttons_panel a {
+	display:             block;
+	float:               right;
+	padding-right:       25px;
+	background-repeat:   no-repeat;
+	background-position: right;
+	color:               #a41f1f;
+	font-weight:         900;
+}
+a.refresh {
+	background-image: url(../Img/Buttons/refresh.png);
+}
+a.next {
+	background-image: url(../Img/Buttons/next.png);
+}
+a.previous {
+	background-image: url(../Img/Buttons/previous.png);
+}
+ul#directoriesList li {
+	padding: 3px 5px 3px 5px;
+
+}
+ul#directoriesList li.mod1 {
+	background-color: #e9e9e9;
+}
+
+ul#directoriesList li span.sls_init_icon {
+	width:      100px;
+	text-align: center;
+	font-size:  0.9em;
+}
+ul#directoriesList li span.sls_init_label {
+	width:      500px;
+	text-align: left;
+	font-size:  0.9em;
+}
+fieldset.sls_init_form form label {
+	display:    block;
+	float:      left;
+	width:      250px;
+	font-size:  0.9em;
+	color:      #969696;
+	text-align: right;
+	margin:     5px 10px 5px 125px;
+}
+fieldset.sls_init_form form input {
+	display: block;
+	float:   left;
+	width:   150px;
+	margin:  5px 0 5px 0;
+}
+
+div.stat_monitoring {
+	display: block;
+	float:   left;
+	width:   100%;
+}
+div.stat_monitoring div.detail {
+	display:       block;
+	float:         left;
+	width:         100%;
+	margin-bottom: 25px;
+}
+div.stat_monitoring div.detail h2 {
+	display:       block;
+	float:         left;
+	margin-bottom: 10px;
+	clear:         both;
+}
+div.stat_monitoring div.detail div.lines {
+	float: left;
+	width: 70%;
+}
+div.stat_monitoring div.detail div.lines div.line {
+	float: left;
+	width: 100%;
+}
+div.stat_monitoring div.detail div.lines div.line div.info {
+	float: left;
+	width: 70%;
+}
+div.stat_monitoring div.detail div.lines div.line span {
+	display: block;
+	float:   left;
+}
+div.stat_monitoring div.detail div.lines div.line span.hour {
+	width: 92px;
+}
+div.stat_monitoring div.detail div.lines div.line span.type {
+	font-weight: bold;
+	margin-left: 10px;
+}
+div.stat_monitoring div.detail div.lines div.line span.time {
+	float:      right;
+	text-align: right;
+	width:      30%;
+}
+div.stat_monitoring div.detail div.lines div.line div.more {
+	display:    block;
+	float:      left;
+	clear:      both;
+	width:      70%;
+	margin:     5px 92px 5px;
+	font-style: italic;
+	border:     1px dotted gray;
+}
+div.stat_monitoring div.detail div.lines div.line div.more div {
+	padding: 5px 10px;
+}
+div.stat_monitoring div.detail div.graph {
+	float: right;
+	width: 30%;
+}
+div.stat_monitoring div.detail div.graph img {
+	float:  right;
+	margin: 0 10px;
+}
+
+#SLS_EditBo ul li {
+	display: block;
+}
+#SLS_EditBo ul li div.col {
+	float: left;
+}
+
+#SLS_EditBo ul.columns_head li div.col.available{
+	cursor: pointer;
+}
+
+#SLS_EditBo ul.columns_head li div.col{
+	font-weight: bold;
+}
+
+#SLS_EditBo ul li div.col:first-child {
+	width:      250px;
+	text-align: left;
+}
+
+#SLS_EditBo ul li div.col {
+	width:       115px;
+	text-align:  center;
+	font-weight: normal;
+}
+
+#SLS_EditBo ul.columns_body li {
+	border-top: 1px solid #d7d7d7;
+}
+#SLS_EditBo ul.columns_body li:hover{
+	cursor:move;	
+}
+
+#SLS_EditBo input.hide,
+#SLS_EditBo select.hide {
+	display:none;
+}
+
+.clear {
+	line-height: 1px;
+	clear:       both;
+	width:       100%;
+	display:     block;
+	height:      1px;
+}
+
+#SLS_EditBo .example{
+	display:none;
+}
+
+#SLS_EditBo  img.delete{
+	cursor: pointer;
+}
+a.report{
+	display:block;
+	margin:0 auto;
+	width: 15px;
+	height: 35px;
+	background: url(../Img/Icons/on-off.png) 0 0 no-repeat transparent;
+}
+a.report.on,
+a.report.off:hover{
+	background-position: 0 -35px;
+}
+a.report.off,
+a.report.on:hover{
+	background-position: 0 0;
+}

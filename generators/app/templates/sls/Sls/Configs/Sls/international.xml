@@ -1,0 +1,1954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sls_configs>
+	<sls_country tld="af">
+		<sls_country_name><![CDATA[afghanistan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[dari]]></sls_country_lang>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[pashtu]]></sls_country_lang>
+			<sls_country_lang iso="fa"><![CDATA[persian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ax">
+		<sls_country_name><![CDATA[aland islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="sv"><![CDATA[swedish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="al">
+		<sls_country_name><![CDATA[albania]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="sq"><![CDATA[albanian]]></sls_country_lang>
+			<sls_country_lang iso="el"><![CDATA[greek]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="dz">
+		<sls_country_name><![CDATA[algeria]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="as">
+		<sls_country_name><![CDATA[american samoa]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="sm"><![CDATA[samoan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ad">
+		<sls_country_name><![CDATA[andorra]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ca"><![CDATA[catalan]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ao">
+		<sls_country_name><![CDATA[Angola]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bantu]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ai">
+		<sls_country_name><![CDATA[anguilla]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ag">
+		<sls_country_name><![CDATA[antigua and barbuda]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ar">
+		<sls_country_name><![CDATA[argentina]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="am">
+		<sls_country_name><![CDATA[armenia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hy"><![CDATA[armenian]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[yezidi]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="aw">
+		<sls_country_name><![CDATA[aruba]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="nl"><![CDATA[dutch]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="au">
+		<sls_country_name><![CDATA[australia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="sc"><![CDATA[sardinian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="at">
+		<sls_country_name><![CDATA[austria]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hr"><![CDATA[croatian]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+			<sls_country_lang iso="sl"><![CDATA[slovenian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="az">
+		<sls_country_name><![CDATA[azerbaijan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hy"><![CDATA[armenian]]></sls_country_lang>
+			<sls_country_lang iso="az"><![CDATA[azerbaijani]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bs">
+		<sls_country_name><![CDATA[bahamas]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bh">
+		<sls_country_name><![CDATA[bahrain]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bd">
+		<sls_country_name><![CDATA[bangladesh]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bangla]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bb">
+		<sls_country_name><![CDATA[barbados]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="by">
+		<sls_country_name><![CDATA[belarus]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="be"><![CDATA[belorussian]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="be">
+		<sls_country_name><![CDATA[belgium]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="nl"><![CDATA[dutch]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bz">
+		<sls_country_name><![CDATA[belize]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[garifuna]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[mayan]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bj">
+		<sls_country_name><![CDATA[benin]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[fon]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="yo"><![CDATA[yoruba]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bm">
+		<sls_country_name><![CDATA[bermuda]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bt">
+		<sls_country_name><![CDATA[bhutan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="dz"><![CDATA[dzongkha]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nepalese]]></sls_country_lang>
+			<sls_country_lang iso="bo"><![CDATA[tibetan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bo">
+		<sls_country_name><![CDATA[bolivia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ay"><![CDATA[aymara]]></sls_country_lang>
+			<sls_country_lang iso="qu"><![CDATA[quechua]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ba">
+		<sls_country_name><![CDATA[bosnia and herzegovina]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="bs"><![CDATA[bosnian]]></sls_country_lang>
+			<sls_country_lang iso="hr"><![CDATA[croatian]]></sls_country_lang>
+			<sls_country_lang iso="sr"><![CDATA[serbian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bw">
+		<sls_country_name><![CDATA[botswana]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kalanga]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sekgalagadi]]></sls_country_lang>
+			<sls_country_lang iso="tn"><![CDATA[tswana]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="br">
+		<sls_country_name><![CDATA[brazil]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="io">
+		<sls_country_name><![CDATA[british indian ocean territory]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bn">
+		<sls_country_name><![CDATA[brunei]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ms"><![CDATA[malay]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bg">
+		<sls_country_name><![CDATA[bulgaria]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="bg"><![CDATA[bulgarian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[roma]]></sls_country_lang>
+			<sls_country_lang iso="tr"><![CDATA[turkish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bf">
+		<sls_country_name><![CDATA[burkina faso]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sudanic]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bi">
+		<sls_country_name><![CDATA[burundi]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kirundi]]></sls_country_lang>
+			<sls_country_lang iso="sw"><![CDATA[swahili]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="kh">
+		<sls_country_name><![CDATA[cambodia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="km"><![CDATA[khmer]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cm">
+		<sls_country_name><![CDATA[cameroon]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ca">
+		<sls_country_name><![CDATA[canada]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="cr"><![CDATA[cree]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[dogrib]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+			<sls_country_lang iso="iu"><![CDATA[inuktitut]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[inuvialuktun]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cv">
+		<sls_country_name><![CDATA[cape verde]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[criuolo]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ky">
+		<sls_country_name><![CDATA[cayman islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cf">
+		<sls_country_name><![CDATA[central african republic]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sangho]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="td">
+		<sls_country_name><![CDATA[chad]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sara]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cl">
+		<sls_country_name><![CDATA[chile]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cn">
+		<sls_country_name><![CDATA[china]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[cantonese]]></sls_country_lang>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[fuzhou]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[gan]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[hokkien-taiwanese]]></sls_country_lang>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[shanghaiese]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[xiang]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mo">
+		<sls_country_name><![CDATA[china, macao]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cx">
+		<sls_country_name><![CDATA[christmas island]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cc">
+		<sls_country_name><![CDATA[cocos (keeling) islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="co">
+		<sls_country_name><![CDATA[colombia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="km">
+		<sls_country_name><![CDATA[comoros]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[shikomoro]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cd">
+		<sls_country_name><![CDATA[congo, democratic republic]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="kg"><![CDATA[kikongo]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kingwana]]></sls_country_lang>
+			<sls_country_lang iso="ln"><![CDATA[lingala]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tshiluba]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cg">
+		<sls_country_name><![CDATA[congo, republic of the]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="kg"><![CDATA[kikongo]]></sls_country_lang>
+			<sls_country_lang iso="ln"><![CDATA[lingala]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[monokutuba]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ck">
+		<sls_country_name><![CDATA[cook islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="mi"><![CDATA[maori]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cr">
+		<sls_country_name><![CDATA[costa rica]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ci">
+		<sls_country_name><![CDATA[cote d&#039;ivoire]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="hr">
+		<sls_country_name><![CDATA[croatia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hr"><![CDATA[croatian]]></sls_country_lang>
+			<sls_country_lang iso="cs"><![CDATA[czech]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso="sk"><![CDATA[slovak]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cu">
+		<sls_country_name><![CDATA[cuba]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cy">
+		<sls_country_name><![CDATA[cyprus]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="el"><![CDATA[greek]]></sls_country_lang>
+			<sls_country_lang iso="tr"><![CDATA[turkish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="cz">
+		<sls_country_name><![CDATA[czech republic]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="cs"><![CDATA[czech]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="dk">
+		<sls_country_name><![CDATA[denmark]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="da"><![CDATA[danish]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fo"><![CDATA[faroese]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[greenlandic]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="dj">
+		<sls_country_name><![CDATA[djibouti]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="aa"><![CDATA[afar]]></sls_country_lang>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="so"><![CDATA[somali]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="dm">
+		<sls_country_name><![CDATA[dominica]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="do">
+		<sls_country_name><![CDATA[dominican republic]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tp">
+		<sls_country_name><![CDATA[east timor]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[galole]]></sls_country_lang>
+			<sls_country_lang iso="id"><![CDATA[indonesian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kemak]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[mambae]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tetum]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ec">
+		<sls_country_name><![CDATA[ecuador]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="qu"><![CDATA[quechua]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="eg">
+		<sls_country_name><![CDATA[egypt]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sv">
+		<sls_country_name><![CDATA[el salvador]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[nahua]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gq">
+		<sls_country_name><![CDATA[equatorial guinea]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bubi]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[fang]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ig"><![CDATA[igbo]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="er">
+		<sls_country_name><![CDATA[eritrea]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="aa"><![CDATA[afar]]></sls_country_lang>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tigre and kunama]]></sls_country_lang>
+			<sls_country_lang iso="ti"><![CDATA[tigrinya]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ee">
+		<sls_country_name><![CDATA[estonia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="et"><![CDATA[estonian]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="et">
+		<sls_country_name><![CDATA[ethiopia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="am"><![CDATA[amharic]]></sls_country_lang>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[guaragigna]]></sls_country_lang>
+			<sls_country_lang iso="om"><![CDATA[oromo]]></sls_country_lang>
+			<sls_country_lang iso="so"><![CDATA[somali]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tigrigna]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="eu">
+		<sls_country_name><![CDATA[european union]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="bg"><![CDATA[bulgarian]]></sls_country_lang>
+			<sls_country_lang iso="cs"><![CDATA[czech]]></sls_country_lang>
+			<sls_country_lang iso="da"><![CDATA[danish]]></sls_country_lang>
+			<sls_country_lang iso="nl"><![CDATA[dutch]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="fk">
+		<sls_country_name><![CDATA[falkland islands (malvinas)]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="fo">
+		<sls_country_name><![CDATA[faroe islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="da"><![CDATA[danish]]></sls_country_lang>
+			<sls_country_lang iso="fo"><![CDATA[faroese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="fj">
+		<sls_country_name><![CDATA[fiji]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fj"><![CDATA[fijian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[hindustani]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="fi">
+		<sls_country_name><![CDATA[finland]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fi"><![CDATA[finnish]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+			<sls_country_lang iso="sv"><![CDATA[swedish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="fr">
+		<sls_country_name><![CDATA[france]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[alsatian]]></sls_country_lang>
+			<sls_country_lang iso="eu"><![CDATA[basque]]></sls_country_lang>
+			<sls_country_lang iso="br"><![CDATA[breton]]></sls_country_lang>
+			<sls_country_lang iso="ca"><![CDATA[catalan]]></sls_country_lang>
+			<sls_country_lang iso="co"><![CDATA[corsican]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[flemish]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+			<sls_country_lang iso="oc"><![CDATA[occitan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gf">
+		<sls_country_name><![CDATA[french guiana]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pf">
+		<sls_country_name><![CDATA[french polynesia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ga">
+		<sls_country_name><![CDATA[gabon]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bandjabi]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[fang]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[myene]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nzebi]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gm">
+		<sls_country_name><![CDATA[gambia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[fula]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[mandinka]]></sls_country_lang>
+			<sls_country_lang iso="wo"><![CDATA[wolof]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ge">
+		<sls_country_name><![CDATA[georgia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hy"><![CDATA[armenian]]></sls_country_lang>
+			<sls_country_lang iso="az"><![CDATA[azerbaijani]]></sls_country_lang>
+			<sls_country_lang iso="ka"><![CDATA[georgian]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="de">
+		<sls_country_name><![CDATA[germany]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="sc"><![CDATA[sardinian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gh">
+		<sls_country_name><![CDATA[ghana]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ak"><![CDATA[akan]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ee"><![CDATA[ewe]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[moshi-dagomba]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gi">
+		<sls_country_name><![CDATA[gibraltar]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gr">
+		<sls_country_name><![CDATA[greece]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="el"><![CDATA[greek]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gl">
+		<sls_country_name><![CDATA[greenland]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="da"><![CDATA[danish]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[greenlandic]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gd">
+		<sls_country_name><![CDATA[grenada]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gp">
+		<sls_country_name><![CDATA[guadeloupe]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gu">
+		<sls_country_name><![CDATA[guam]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gt">
+		<sls_country_name><![CDATA[guatemala]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[cakchiquel]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[garifuna]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kekchi]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[mam]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[quiche]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[xinca]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gg">
+		<sls_country_name><![CDATA[guernsey]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gn">
+		<sls_country_name><![CDATA[guinea]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[fulani]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[motu]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[susu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gw">
+		<sls_country_name><![CDATA[guinea-bissau]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[criolo]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="gy">
+		<sls_country_name><![CDATA[guyana]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="hi"><![CDATA[hindi]]></sls_country_lang>
+			<sls_country_lang iso="ur"><![CDATA[urdu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ht">
+		<sls_country_name><![CDATA[haiti]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="va">
+		<sls_country_name><![CDATA[holy see]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso="la"><![CDATA[latin]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="hn">
+		<sls_country_name><![CDATA[honduras]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="hk">
+		<sls_country_name><![CDATA[hong kong]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="hu">
+		<sls_country_name><![CDATA[hungary]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="is">
+		<sls_country_name><![CDATA[iceland]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="is"><![CDATA[icelandic]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="in">
+		<sls_country_name><![CDATA[india]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="as"><![CDATA[assamese]]></sls_country_lang>
+			<sls_country_lang iso="bn"><![CDATA[bengali]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="gu"><![CDATA[gujarati]]></sls_country_lang>
+			<sls_country_lang iso="hi"><![CDATA[hindi]]></sls_country_lang>
+			<sls_country_lang iso="kn"><![CDATA[kannada]]></sls_country_lang>
+			<sls_country_lang iso="ks"><![CDATA[kashmiri]]></sls_country_lang>
+			<sls_country_lang iso="ml"><![CDATA[malayalam]]></sls_country_lang>
+			<sls_country_lang iso="mr"><![CDATA[marathi]]></sls_country_lang>
+			<sls_country_lang iso="or"><![CDATA[oriya]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[punjabi]]></sls_country_lang>
+			<sls_country_lang iso="sa"><![CDATA[sanskrit]]></sls_country_lang>
+			<sls_country_lang iso="ta"><![CDATA[tamil]]></sls_country_lang>
+			<sls_country_lang iso="te"><![CDATA[telugu]]></sls_country_lang>
+			<sls_country_lang iso="ur"><![CDATA[urdu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="id">
+		<sls_country_name><![CDATA[indonesia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="nl"><![CDATA[dutch]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="id"><![CDATA[indonesian]]></sls_country_lang>
+			<sls_country_lang iso="jv"><![CDATA[javanese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ir">
+		<sls_country_name><![CDATA[iran]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="ku"><![CDATA[kurdish]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[luri]]></sls_country_lang>
+			<sls_country_lang iso="fa"><![CDATA[persian]]></sls_country_lang>
+			<sls_country_lang iso="tr"><![CDATA[turkish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="iq">
+		<sls_country_name><![CDATA[iraq]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="hy"><![CDATA[armenian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[assyrian]]></sls_country_lang>
+			<sls_country_lang iso="ku"><![CDATA[kurdish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ie">
+		<sls_country_name><![CDATA[ireland]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ga"><![CDATA[irish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="im">
+		<sls_country_name><![CDATA[isle of man]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="il">
+		<sls_country_name><![CDATA[israel]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="he"><![CDATA[hebrew]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="it">
+		<sls_country_name><![CDATA[italy]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso="oc"><![CDATA[occitan]]></sls_country_lang>
+			<sls_country_lang iso="sc"><![CDATA[sardinian]]></sls_country_lang>
+			<sls_country_lang iso="sl"><![CDATA[slovenian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="jm">
+		<sls_country_name><![CDATA[jamaica]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[jamaican creole]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="jp">
+		<sls_country_name><![CDATA[japan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ja"><![CDATA[japanese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="je">
+		<sls_country_name><![CDATA[jersey]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="jo">
+		<sls_country_name><![CDATA[jordan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="kz">
+		<sls_country_name><![CDATA[kazakhstan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[kazak]]></sls_country_lang>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ke">
+		<sls_country_name><![CDATA[kenya]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="sw"><![CDATA[swahili]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ki">
+		<sls_country_name><![CDATA[kiribati]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[i-kiribati]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="kw">
+		<sls_country_name><![CDATA[kuwait]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="kg">
+		<sls_country_name><![CDATA[kyrgyzstan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[kyrgyz]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="la">
+		<sls_country_name><![CDATA[laos]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="lo"><![CDATA[lao]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="lv">
+		<sls_country_name><![CDATA[latvia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="lv"><![CDATA[latvian]]></sls_country_lang>
+			<sls_country_lang iso="lt"><![CDATA[lithuanian]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="lb">
+		<sls_country_name><![CDATA[lebanon]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="hy"><![CDATA[armenian]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ls">
+		<sls_country_name><![CDATA[lesotho]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sesotho]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sotho]]></sls_country_lang>
+			<sls_country_lang iso="xh"><![CDATA[xhosa]]></sls_country_lang>
+			<sls_country_lang iso="zu"><![CDATA[zulu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="lr">
+		<sls_country_name><![CDATA[liberia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ly">
+		<sls_country_name><![CDATA[libya]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="li">
+		<sls_country_name><![CDATA[liechtenstein]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="lt">
+		<sls_country_name><![CDATA[lithuania]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="lt"><![CDATA[lithuanian]]></sls_country_lang>
+			<sls_country_lang iso="pl"><![CDATA[polish]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="lu">
+		<sls_country_name><![CDATA[luxembourg]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="lb"><![CDATA[luxembourgish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mk">
+		<sls_country_name><![CDATA[macedonia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="sq"><![CDATA[albanian]]></sls_country_lang>
+			<sls_country_lang iso="mk"><![CDATA[macedonian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[roma]]></sls_country_lang>
+			<sls_country_lang iso="sr"><![CDATA[serbian]]></sls_country_lang>
+			<sls_country_lang iso="tr"><![CDATA[turkish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mg">
+		<sls_country_name><![CDATA[madagascar]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="mg"><![CDATA[malagasy]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mw">
+		<sls_country_name><![CDATA[malawi]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[chichewa]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[chilomwe]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[chinyanja]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[chisena]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[chitonga]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[chitumbuka]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[chiyao]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="my">
+		<sls_country_name><![CDATA[malaysia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[cantonese]]></sls_country_lang>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ms"><![CDATA[malay]]></sls_country_lang>
+			<sls_country_lang iso="ml"><![CDATA[malayalam]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[panjabi]]></sls_country_lang>
+			<sls_country_lang iso="ta"><![CDATA[tamil]]></sls_country_lang>
+			<sls_country_lang iso="te"><![CDATA[telugu]]></sls_country_lang>
+			<sls_country_lang iso="th"><![CDATA[thai]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mv">
+		<sls_country_name><![CDATA[maldives]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[dhivehi]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ml">
+		<sls_country_name><![CDATA[mali]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="bm"><![CDATA[bambara]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mt">
+		<sls_country_name><![CDATA[malta]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="mt"><![CDATA[maltese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mh">
+		<sls_country_name><![CDATA[marshall islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ja"><![CDATA[japanese]]></sls_country_lang>
+			<sls_country_lang iso="mh"><![CDATA[marshallese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mq">
+		<sls_country_name><![CDATA[martinique]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mr">
+		<sls_country_name><![CDATA[mauritania]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[hassaniya arabic]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[pulaar]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[soninke]]></sls_country_lang>
+			<sls_country_lang iso="wo"><![CDATA[wolof]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mu">
+		<sls_country_name><![CDATA[mauritius]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bojpoori]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="yt">
+		<sls_country_name><![CDATA[mayotte]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mx">
+		<sls_country_name><![CDATA[mexico]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[nahuatl]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="fm">
+		<sls_country_name><![CDATA[micronesia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[chukese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kapingamarangi]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kosrean]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nukuoro]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[pohnpeian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[ulithian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[woleaian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[yapase]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="md">
+		<sls_country_name><![CDATA[moldova]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[gagauz]]></sls_country_lang>
+			<sls_country_lang iso="mo"><![CDATA[moldovan]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mc">
+		<sls_country_name><![CDATA[monaco]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[monegasque]]></sls_country_lang>
+			<sls_country_lang iso="oc"><![CDATA[occitan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mn">
+		<sls_country_name><![CDATA[mongolia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="mn"><![CDATA[mongolian]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+			<sls_country_lang iso="tr"><![CDATA[turkish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="me">
+		<sls_country_name><![CDATA[montenegro]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="sq"><![CDATA[albanian]]></sls_country_lang>
+			<sls_country_lang iso="bs"><![CDATA[bosnian]]></sls_country_lang>
+			<sls_country_lang iso="hr"><![CDATA[croatian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[montenegrin]]></sls_country_lang>
+			<sls_country_lang iso="sr"><![CDATA[serbian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ms">
+		<sls_country_name><![CDATA[montserrat]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ma">
+		<sls_country_name><![CDATA[morocco]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mz">
+		<sls_country_name><![CDATA[mozambique]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[cisena]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[echuwabo]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[elomwe]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[emakhuwa]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+			<sls_country_lang iso="ts"><![CDATA[tsonga]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[xichangana]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mm">
+		<sls_country_name><![CDATA[myanmar]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="my"><![CDATA[burmese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="na">
+		<sls_country_name><![CDATA[namibia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="af"><![CDATA[afrikaans]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="hz"><![CDATA[herero]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nama]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="nr">
+		<sls_country_name><![CDATA[nauru]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nauruan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="np">
+		<sls_country_name><![CDATA[nepal]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bhojpuri]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[maithali]]></sls_country_lang>
+			<sls_country_lang iso="ne"><![CDATA[nepali]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tamang]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tharu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="nl">
+		<sls_country_name><![CDATA[netherlands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="nl"><![CDATA[dutch]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[frisian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="an">
+		<sls_country_name><![CDATA[netherlands antilles]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="nl"><![CDATA[dutch]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="nc">
+		<sls_country_name><![CDATA[new caledonia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="nz">
+		<sls_country_name><![CDATA[new zealand]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="mi"><![CDATA[maori]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ni">
+		<sls_country_name><![CDATA[nicaragua]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ne">
+		<sls_country_name><![CDATA[niger]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[djerma]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="ha"><![CDATA[hausa]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ng">
+		<sls_country_name><![CDATA[nigeria]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[fulani]]></sls_country_lang>
+			<sls_country_lang iso="ha"><![CDATA[hausa]]></sls_country_lang>
+			<sls_country_lang iso="ig"><![CDATA[igbo]]></sls_country_lang>
+			<sls_country_lang iso="yo"><![CDATA[yoruba]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="nu">
+		<sls_country_name><![CDATA[niue]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="nf">
+		<sls_country_name><![CDATA[norfolk island]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="kp">
+		<sls_country_name><![CDATA[north korea]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ko"><![CDATA[korean]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="mp">
+		<sls_country_name><![CDATA[northern mariana islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="no">
+		<sls_country_name><![CDATA[norway]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fi"><![CDATA[finnish]]></sls_country_lang>
+			<sls_country_lang iso="no"><![CDATA[norwegian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="om">
+		<sls_country_name><![CDATA[oman]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[baluchi]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ur"><![CDATA[urdu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pk">
+		<sls_country_name><![CDATA[pakistan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[balochi]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[brahui]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[burushaski]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[hindko]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[pashtu]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[punjabi]]></sls_country_lang>
+			<sls_country_lang iso="sd"><![CDATA[sindhi]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[siraiki]]></sls_country_lang>
+			<sls_country_lang iso="ur"><![CDATA[urdu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pw">
+		<sls_country_name><![CDATA[palau]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[angaur]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[carolinian]]></sls_country_lang>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[filipino]]></sls_country_lang>
+			<sls_country_lang iso="ja"><![CDATA[japanese]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[palauan]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sonsoralese]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tobi]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ps">
+		<sls_country_name><![CDATA[palestine]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="he"><![CDATA[hebrew]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pa">
+		<sls_country_name><![CDATA[panama]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pg">
+		<sls_country_name><![CDATA[papua new guinea]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ho"><![CDATA[hiri motu]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tok pisin]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="py">
+		<sls_country_name><![CDATA[paraguay]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="gn"><![CDATA[guarani]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pe">
+		<sls_country_name><![CDATA[peru]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ay"><![CDATA[aymara]]></sls_country_lang>
+			<sls_country_lang iso="qu"><![CDATA[quechua]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ph">
+		<sls_country_name><![CDATA[philippines]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bicol]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[cebuano]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[filipino]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[hiligaynon]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[ilocano]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[pampango]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[pangasinense]]></sls_country_lang>
+			<sls_country_lang iso="tl"><![CDATA[tagalog]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[waray]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pn">
+		<sls_country_name><![CDATA[pitcairn]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pl">
+		<sls_country_name><![CDATA[poland]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="pl"><![CDATA[polish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pt">
+		<sls_country_name><![CDATA[portugal]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[mirandese]]></sls_country_lang>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pr">
+		<sls_country_name><![CDATA[puerto rico]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="qa">
+		<sls_country_name><![CDATA[qatar]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="re">
+		<sls_country_name><![CDATA[reunion]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[creole]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ro">
+		<sls_country_name><![CDATA[romania]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+			<sls_country_lang iso="ro"><![CDATA[romanian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ru">
+		<sls_country_name><![CDATA[russian federation]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="rw">
+		<sls_country_name><![CDATA[rwanda]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="rw"><![CDATA[kinyarwanda]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kiswahili]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="bl">
+		<sls_country_name><![CDATA[saint barthelemy]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="kn">
+		<sls_country_name><![CDATA[saint kitts and nevis]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="lc">
+		<sls_country_name><![CDATA[saint lucia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="vc">
+		<sls_country_name><![CDATA[saint vincent and the grenadines]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ws">
+		<sls_country_name><![CDATA[samoa]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="sm"><![CDATA[samoan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sm">
+		<sls_country_name><![CDATA[san marino]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="st">
+		<sls_country_name><![CDATA[sao tome and principe]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="pt"><![CDATA[portuguese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sa">
+		<sls_country_name><![CDATA[saudi arabia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sn">
+		<sls_country_name><![CDATA[senegal]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[jola]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[mandinka]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[pulaar]]></sls_country_lang>
+			<sls_country_lang iso="wo"><![CDATA[wolof]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="rs">
+		<sls_country_name><![CDATA[serbia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="sq"><![CDATA[albanian]]></sls_country_lang>
+			<sls_country_lang iso="hr"><![CDATA[croatian]]></sls_country_lang>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+			<sls_country_lang iso="ro"><![CDATA[romanian]]></sls_country_lang>
+			<sls_country_lang iso="sr"><![CDATA[serbian]]></sls_country_lang>
+			<sls_country_lang iso="sk"><![CDATA[slovak]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sc">
+		<sls_country_name><![CDATA[seychelles]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[seselwa creole]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sl">
+		<sls_country_name><![CDATA[sierra leone]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[krio]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[mende]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[temne]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sg">
+		<sls_country_name><![CDATA[singapore]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[cantonese]]></sls_country_lang>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[hokkien]]></sls_country_lang>
+			<sls_country_lang iso="ms"><![CDATA[malay]]></sls_country_lang>
+			<sls_country_lang iso="ta"><![CDATA[tamil]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[teochew]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sk">
+		<sls_country_name><![CDATA[slovak republic]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[roma]]></sls_country_lang>
+			<sls_country_lang iso="sk"><![CDATA[slovak]]></sls_country_lang>
+			<sls_country_lang iso="uk"><![CDATA[ukrainian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="si">
+		<sls_country_name><![CDATA[slovenia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hr"><![CDATA[croatian]]></sls_country_lang>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso="sr"><![CDATA[serbian]]></sls_country_lang>
+			<sls_country_lang iso="sl"><![CDATA[slovenian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sb">
+		<sls_country_name><![CDATA[solomon islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="so">
+		<sls_country_name><![CDATA[somalia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso="so"><![CDATA[somali]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="za">
+		<sls_country_name><![CDATA[south africa]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="af"><![CDATA[afrikaans]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sepedi]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sesotho]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sotho]]></sls_country_lang>
+			<sls_country_lang iso="ts"><![CDATA[tsonga]]></sls_country_lang>
+			<sls_country_lang iso="tn"><![CDATA[tswana]]></sls_country_lang>
+			<sls_country_lang iso="ve"><![CDATA[venda]]></sls_country_lang>
+			<sls_country_lang iso="xh"><![CDATA[xhosa]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[xitsonga]]></sls_country_lang>
+			<sls_country_lang iso="zu"><![CDATA[zulu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="kr">
+		<sls_country_name><![CDATA[south korea]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ko"><![CDATA[korean]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="es">
+		<sls_country_name><![CDATA[spain]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="eu"><![CDATA[basque]]></sls_country_lang>
+			<sls_country_lang iso="ca"><![CDATA[catalan]]></sls_country_lang>
+			<sls_country_lang iso="gl"><![CDATA[galician]]></sls_country_lang>
+			<sls_country_lang iso="oc"><![CDATA[occitan]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="lk">
+		<sls_country_name><![CDATA[sri lanka]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[sinhala]]></sls_country_lang>
+			<sls_country_lang iso="ta"><![CDATA[tamil]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sh">
+		<sls_country_name><![CDATA[st. helena]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="pm">
+		<sls_country_name><![CDATA[st. pierre and miquelon]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sd">
+		<sls_country_name><![CDATA[sudan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nilo-hamitic]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nubian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[ta bedawie]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sr">
+		<sls_country_name><![CDATA[suriname]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="nl"><![CDATA[dutch]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[hindustani]]></sls_country_lang>
+			<sls_country_lang iso="jv"><![CDATA[javanese]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[surinamese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sj">
+		<sls_country_name><![CDATA[svalbard and jan mayen islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="no"><![CDATA[norwegian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sz">
+		<sls_country_name><![CDATA[swaziland]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[siswati]]></sls_country_lang>
+			<sls_country_lang iso="ts"><![CDATA[tsonga]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="se">
+		<sls_country_name><![CDATA[sweden]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fi"><![CDATA[finnish]]></sls_country_lang>
+			<sls_country_lang iso="sv"><![CDATA[swedish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ch">
+		<sls_country_name><![CDATA[switzerland]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="de"><![CDATA[german]]></sls_country_lang>
+			<sls_country_lang iso="it"><![CDATA[italian]]></sls_country_lang>
+			<sls_country_lang iso="rm"><![CDATA[romansch]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="sy">
+		<sls_country_name><![CDATA[syria]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[aramaic]]></sls_country_lang>
+			<sls_country_lang iso="hy"><![CDATA[armenian]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[circassian]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tw">
+		<sls_country_name><![CDATA[taiwan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[taiwanese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tj">
+		<sls_country_name><![CDATA[tajikistan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+			<sls_country_lang iso="tg"><![CDATA[tajik]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tz">
+		<sls_country_name><![CDATA[tanzania]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="sw"><![CDATA[swahili]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="th">
+		<sls_country_name><![CDATA[thailand]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="th"><![CDATA[thai]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tg">
+		<sls_country_name><![CDATA[togo]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[dagomba]]></sls_country_lang>
+			<sls_country_lang iso="ee"><![CDATA[ewe]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kabye]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[mina]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tk">
+		<sls_country_name><![CDATA[tokelau]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="to">
+		<sls_country_name><![CDATA[tonga]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="to"><![CDATA[tongan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tt">
+		<sls_country_name><![CDATA[trinidad and tobago]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="hi"><![CDATA[hindi]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tn">
+		<sls_country_name><![CDATA[tunisia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tr">
+		<sls_country_name><![CDATA[turkey]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[azeri]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[dimli]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kabardian]]></sls_country_lang>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="ku"><![CDATA[kurdish]]></sls_country_lang>
+			<sls_country_lang iso="tr"><![CDATA[turkish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tm">
+		<sls_country_name><![CDATA[turkmenistan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+			<sls_country_lang iso="tk"><![CDATA[turkmen]]></sls_country_lang>
+			<sls_country_lang iso="uz"><![CDATA[uzbek]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tc">
+		<sls_country_name><![CDATA[turks and caicos islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="tv">
+		<sls_country_name><![CDATA[tuvalu]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kiribati]]></sls_country_lang>
+			<sls_country_lang iso="sm"><![CDATA[samoan]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[tuvaluan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ug">
+		<sls_country_name><![CDATA[uganda]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="sw"><![CDATA[swahili]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ua">
+		<sls_country_name><![CDATA[ukraine]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="hu"><![CDATA[hungarian]]></sls_country_lang>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="pl"><![CDATA[polish]]></sls_country_lang>
+			<sls_country_lang iso="ro"><![CDATA[romanian]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+			<sls_country_lang iso="uk"><![CDATA[ukrainian]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ae">
+		<sls_country_name><![CDATA[united arab emirates]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="hi"><![CDATA[hindi]]></sls_country_lang>
+			<sls_country_lang iso="fa"><![CDATA[persian]]></sls_country_lang>
+			<sls_country_lang iso="ur"><![CDATA[urdu]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="uk">
+		<sls_country_name><![CDATA[united kingdom]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="sc"><![CDATA[sardinian]]></sls_country_lang>
+			<sls_country_lang iso="gd"><![CDATA[scots gaelic]]></sls_country_lang>
+			<sls_country_lang iso="cy"><![CDATA[welsh]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="us">
+		<sls_country_name><![CDATA[united states]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="cr"><![CDATA[cree]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="ht"><![CDATA[haitian]]></sls_country_lang>
+			<sls_country_lang iso="sc"><![CDATA[sardinian]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="uy">
+		<sls_country_name><![CDATA[uruguay]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="uz">
+		<sls_country_name><![CDATA[uzbekistan]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="kk"><![CDATA[kazakh]]></sls_country_lang>
+			<sls_country_lang iso="ru"><![CDATA[russian]]></sls_country_lang>
+			<sls_country_lang iso="tg"><![CDATA[tajik]]></sls_country_lang>
+			<sls_country_lang iso="uz"><![CDATA[uzbek]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="vu">
+		<sls_country_name><![CDATA[vanuatu]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="bi"><![CDATA[bislama]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ve">
+		<sls_country_name><![CDATA[venezuela]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="vn">
+		<sls_country_name><![CDATA[viet nam]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="zh"><![CDATA[chinese]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+			<sls_country_lang iso="km"><![CDATA[khmer]]></sls_country_lang>
+			<sls_country_lang iso="vi"><![CDATA[vietnamese]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="vg">
+		<sls_country_name><![CDATA[virgin islands (british)]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="vi">
+		<sls_country_name><![CDATA[virgin islands (u.s.)]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="wf">
+		<sls_country_name><![CDATA[wallis and futuna islands]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="fr"><![CDATA[french]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="eh">
+		<sls_country_name><![CDATA[western sahara]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+			<sls_country_lang iso="es"><![CDATA[spanish]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="ye">
+		<sls_country_name><![CDATA[yemen]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="ar"><![CDATA[arabic]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="zm">
+		<sls_country_name><![CDATA[zambia]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso=""><![CDATA[bemba]]></sls_country_lang>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[kaonda]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[lozi]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[lunda]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[luvale]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[nyanja]]></sls_country_lang>
+			<sls_country_lang iso="to"><![CDATA[tongan]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+	<sls_country tld="zw">
+		<sls_country_name><![CDATA[zimbabwe]]></sls_country_name>
+		<sls_country_langs>
+			<sls_country_lang iso="en"><![CDATA[english]]></sls_country_lang>
+			<sls_country_lang iso=""><![CDATA[ndebele]]></sls_country_lang>
+			<sls_country_lang iso="sn"><![CDATA[shona]]></sls_country_lang>
+			<sls_country_lang iso="ts"><![CDATA[tsonga]]></sls_country_lang>
+			<sls_country_lang iso="ve"><![CDATA[venda]]></sls_country_lang>
+		</sls_country_langs>
+	</sls_country>
+</sls_configs>

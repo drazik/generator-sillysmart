@@ -1,0 +1,13 @@
+AddType application/vnd.ms-fontobject eot
+AddType application/x-font-ttf ttf ttc
+AddType font/opentype otf
+AddType application/x-font-woff woff
+Options +FollowSymlinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !^(.*)\.(asp|cgi|c|c++|cc|cs|css|csv|cxx|dtd|h|h++|hh|hpp|htm|java|js|php|pl|py|sln|sql|suo|xaml|xml|xsl|ai|art|indd|psd|7z|abs|ace|arc|arj|ark|bz|bz2|jar|rar|tar|tar\.gz|tgz|zip|doc|docx|dot|eps|odt|pdf|pps|ppt|pptx|ppz|ps|rtf|stc|std|sti|stw|sxc|sxd|sxi|sxm|sxw|swg|txt|xls|xslx|eot|otf|svg|ttf|woff|bmp|cur|mht|gif|ico|jpe|jpeg|jpg|png|tiff|aac|aif|cda|flac|mp2|mp3|wav|wma|avi|mkv|mov|mp4|mpeg|mpg|mpga|ogg|ogv|ra|ram|rm|rob|rv|swa|webm|wmv|wmx|f4v|fla|flv|swf)$ [NC]
+RewriteRule ^([\w]*)/?(.*)$ index.php?mode=$1&smode=$2 [L] 
+ErrorDocument 400 /SlsError/BadRequest.sls
+ErrorDocument 401 /SlsError/NoAuthorization.sls
+ErrorDocument 403 /SlsError/Forbidden.sls
+ErrorDocument 404 /SlsError/NotFound.sls
+ErrorDocument 500 /SlsError/ServerError.sls

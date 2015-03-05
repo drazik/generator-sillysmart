@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sls_configs>
+  <charset><![CDATA[UTF-8]]></charset>
+  <version><![CDATA[1.1.0]]></version>
+  <slsnetwork><![CDATA[http://sync.sillysmart.org/Home/Welcome/Render/Json.sls]]></slsnetwork>
+  <prerequies>
+  	<server name="apache">
+  		<mod><![CDATA[mod_php5]]></mod>
+  		<mod><![CDATA[mod_rewrite]]></mod>
+	</server>
+	<php>
+		<mod><![CDATA[xmlwriter]]></mod>
+		<mod><![CDATA[xmlreader]]></mod>
+		<mod><![CDATA[libxml]]></mod>
+		<mod><![CDATA[xml]]></mod>
+		<mod><![CDATA[SimpleXML]]></mod>
+		<mod><![CDATA[dom]]></mod>
+		<mod><![CDATA[xsl]]></mod>
+	</php>
+  </prerequies>
+  <installation>
+    <step><![CDATA[0]]></step>
+    <controller>
+      <lang />
+      <name />
+    </controller>
+    <scontroller>
+      <lang />
+      <name />
+    </scontroller>
+  </installation>
+  <auth>
+    <users />
+  </auth>
+</sls_configs>

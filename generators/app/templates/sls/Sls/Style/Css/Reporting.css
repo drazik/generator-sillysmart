@@ -1,0 +1,325 @@
+.clear {
+	height: 1px;
+	line-height: 1px;
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+.reporting_form {
+	width: 100%;
+}
+
+.reporting_form input[type=text],
+.reporting_form select{
+	width: 200px;
+	padding:0;
+	margin:0;
+}
+
+.reporting_form select.aggregation{
+	width:100px;
+}
+
+.reporting_form .form_gen .row{
+	margin:0 0 6px 0;
+}
+
+.reporting_form .form_gen .row > .label {
+	float:left;
+	width:150px;
+}
+
+.reporting_form .form_gen .row > .value {
+	float: left;
+	min-width: 705px;
+
+}
+.reporting_form .form_gen .field{
+	float:left;
+}
+
+.reporting_form .form_gen .field.error input,
+.reporting_form .form_gen .field.error select
+{
+	border:1px solid #ff6565;
+}
+
+.reporting_form .form_gen .field.hide > * {
+	display: none;
+}
+
+.reporting_form .form_gen .field.loading > * {
+	display: none;
+}
+
+.reporting_form .form_gen .field.loading {
+	background: url(/Sls/Style/Img/Reporting/loader_min.gif) no-repeat left center transparent;
+	width: 30px;
+	height: 30px;
+}
+/*
+.reporting_form .form_gen .field select.aggregation {
+	width: 55px;
+}
+
+.reporting_form .form_gen .field select.operators {
+	width: 150px;
+}*/
+
+.reporting_form .form_gen .field.field_aggregation {
+	margin: 0 0 0 10px;
+}
+
+.reporting_form .form_gen .sections .section {
+	display: none;
+	margin: 0;
+}
+
+.reporting_form .form_gen .sections .section.selected {
+	display: block;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .line .field {
+	margin: 0 0 0 10px;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .line .field:first-child {
+	margin: 0;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .line .field .sls_graph_query_where_value {
+	width: 120px;
+}
+
+.reporting_form .form_gen .sls_graph_query_where#sls_graph_query_where_root {
+	margin-left: 0;
+}
+
+.reporting_form .form_gen .sls_graph_query_where {
+	padding: 5px 0 5px 5px;
+	position: relative;
+}
+
+.reporting_form .form_gen .sls_graph_query_where.hover {
+	background-color: #dbdbdb ;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .sls_graph_query_where_children {
+	border-left: #a7a7a7 1px solid;
+	padding: 0 0 0 18px;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .condition {
+	float: left;
+	margin: 0 10px 0 0;
+	text-transform: uppercase;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .actions {
+	float: left;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .actions button {
+	background-color: #a7a7a7;
+	border: 0 none;
+	color: #FFFFFF;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 0 0 5px;
+	padding: 0 10px;
+	cursor: pointer;
+	font-size: 11px;
+	float: left;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .actions button:first-child {
+	margin: 0;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .actions button:hover {
+	background-color: #232428;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .delete {
+	height: 22px;
+	line-height: 22px;
+	position: absolute;
+	top: 11px;
+	right: 5px;
+	cursor: pointer;
+	color: #8e8e8e;
+	font-weight: bold;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .delete:hover {
+	color: #232428;
+}
+
+.reporting_form .form_gen .sls_graph_query_where .actions .delete {
+	position: relative;
+	top: 0;
+	right: auto;
+	float: left;
+	margin: 0 0 0 8px;
+}
+
+.reporting_form #section_list .column_fields {
+	float: left;
+	width: 330px;
+}
+
+.reporting_form #section_list .column_fields h3 {
+	text-align: right;
+	font-size: 1em;
+	padding: 0;
+	margin: 0 0 5px;
+}
+
+.reporting_form #section_list .column_fields > ul {
+	height: 330px;
+	overflow: auto;
+	border: 1px solid #c5c5c5;
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+.reporting_form #section_list .column_fields > ul li {
+	padding: 0 5px;
+}
+
+.reporting_form #section_list .column_fields ul.original_fields li.selected,
+.reporting_form #section_list .column_fields ul.selected_fields li.selected {
+	background-color: #232428;
+	color: #ffffff;
+}
+
+.reporting_form #section_list .column_fields ul li.hidden {
+	display: none;
+}
+
+.reporting_form #section_list .column_fields ul.parent {
+	padding-left: 20px;
+}
+
+.reporting_form #section_list .column_fields ul.parent.hidden {
+	display: none;
+}
+
+.reporting_form #section_list .column_fields a.fk_table {
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+.reporting_form #section_list .column_fields a.fk_table.loading {
+	cursor: default;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-left: 10px;
+	background: url(/Sls/Style/Img/Reporting/loader_min_reporting.gif) no-repeat center center transparent;
+}
+
+.reporting_form #section_list .column_fields a.hidden {
+	display: none;
+}
+
+.reporting_form #section_list .actions {
+	margin: 173px 15px 0;
+	float: left;
+}
+
+.reporting_form #section_list .actions a {
+	background-color: #a7a7a7;
+	color: #ffffff;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	display: block;
+	float: left;
+	margin: 0 0 0 6px;
+	text-align: center;
+}
+
+.reporting_form #section_list .actions a:first-child {
+	margin: 0;
+}
+
+.reporting_form #section_list .actions a:hover {
+	background-color: #232428;
+}
+
+.reporting_form span.first_loader {
+	display: none;
+}
+
+.reporting_form span.first_loader.active {
+	display: inline-block;
+	height: 16px;
+	width: 100%;
+	margin: 10px 0;
+	background: url(/Sls/Style/Img/Reporting/loader_min_reporting.gif) no-repeat center center transparent;
+}
+
+.reporting_form #sls_graph_query_where_example {
+	display: none;
+}
+
+.graph table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.graph table tr {
+	width: 100%;
+}
+
+.graph table th,
+.graph table td {
+	border: 1px solid #a6a6a6;
+	padding: 8px;
+}
+
+.graph.graph_pivot table th:first-child {
+	border: 0;
+	background-color: transparent;
+}
+
+.graph table th,
+.graph.graph_pivot table tr.even:hover td:first-child,
+.graph.graph_pivot table tr.odd:hover td:first-child,
+.graph.graph_pivot table tr.even td:first-child,
+.graph.graph_pivot table tr.odd td:first-child,
+.graph.graph_pivot table tr td:first-child {
+	font-weight: bold;
+	color: #4B4F55;
+	text-align: center;
+	background-color: #efe2ff;
+}
+
+.graph table tr.even:hover td:first-child,
+.graph table tr.odd:hover td:first-child,
+.graph table tr.odd td:first-child,
+.graph table tr.even td:first-child,
+.graph table tr td:first-child {
+	text-align: left;
+}
+
+.graph table tr td {
+	text-align: center;
+}
+
+.graph table tr.odd td {
+	background-color: #ffffff;
+}
+
+.graph table tr.even td {
+	background-color: #f5f5f5;
+}
+
+.graph table tr.odd:hover td,
+.graph table tr.even:hover td {
+	background-color: #d7d7d7;
+}

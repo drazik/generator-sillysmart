@@ -1,0 +1,458 @@
+﻿CHANGELOG
+=========
+
+19/05/2014: Version 1.1.0
+-------------------------
+	
+    * Feature #445: Allow multiple JS Framework
+    * Feature #999: User_Bo - create a dashboard
+    * Feature #1005: Tooltips BO Client - Class JS
+    * Feature #1009: SLS_Bo - Prefix field from natural join
+    * Feature #1010: User_Bo - display filter button on filter and/or group by
+    * Feature #1028: Add switch lang in BO User
+    * Feature #1030: Hide Developer ToolBar when not logged on Developer BO
+    * Feature #1033: Permit multilanguage on Categories in User BO
+    * Feature #1034: Permit to insert url without protocol in User BO
+    * Feature #1035: Display table name in listing Bo User only on foreign keys
+    * Feature #1061: SLS_Model - Allow to specify FK with inner join
+    * Feature #1093: User_Bo - Add a flag error on lang selector
+    * Feature #1098: User_Bo - Specific type file with AJAX
+    * Feature #1105: add an action to recover password on user bo
+    * Feature #1106: add a link on user bo to change the current password
+    * Feature #1107: Add a design tree view on list with parent id
+    * Feature #1160: SLS_Core - Add log in developer toolbar
+    * Feature #1164: SLS_BoListing - Find a way to autocomplete filters
+    * Feature #2008: User_Bo - Graphical Overhaul
+    * Feature #2149: SLS_GenericController - Add error alias
+    * Feature #2150: SLS_Cache - Responsive feature
+    * Feature #2196: Module Google Analytics
+    * Feature #2197: SLS_Lang - Ajout d'une fonction pour récupérer une traduction
+    * Feature #2211: SLS_Model - Unique clause with i18n
+    * Feature #2324: Meta no-index / no-follow in dev mode
+    * Feature #2337: BO - Add filter 'numeric' to the xml flow when the native type of the column is a 'number" type
+    * Feature #2341: SLS_Bo - Model Properties
+    * Feature #2349: User_Bo - Project settings
+    * Feature #2371: getFullPath - Allow to get relative URL
+    * Feature #2376: PHP SAPI - Command line
+    * Feature #2377: SLS_Core - URI case insensitive
+    * Feature #2391: SLS_Bo - Create reporting
+    * Feature #2392: SLS_Core - Shorts URI
+    * Feature #2393: SLS_XMLToArray - Recode whole class
+    * Feature #2394: SyntaxHighlighter & Stack traces
+    * Feature #2395: User_Bo - Keep alive
+	* Feature #2396: User_Bo - Add Google Address Autocomplete field
+    * Bug #632: BoListing - Check all models for multilang
+    * Bug #1014: SLS_Bo - Ckeditor binding on a no-multilanguage model
+    * Bug #1025: SLS_Bo - Clone with specific type position
+    * Bug #1080: SLS_Bo - we can't select all columns for ck binding
+    * Bug #1083: User_Bo - It's not possible to set empty a nullable FK
+    * Bug #1094: User_Bo - ckEditor fields are js "valid" on FF
+    * Bug #2103: User_Bo - Menu items
+    * Bug #2205: Bug clone in user Bo
+    * Bug #2378: SLS_String::removeSpecialCaracteres update
+
+07/11/2013: Version 1.0.9
+-------------------------
+	    
+    * Bug #993: User_Bo - Class not found when you delete a model in sls bo
+    * Bug #998: SLS_Bo - If a Model doesn't exist anymore, listing of models crash
+    * Bug #1015: SLS_Bo - TemporaryRedirectError action edit
+    * Bug #1023: SLS_Bo - DeleteFile on clonable fields
+    * Bug #1027: User_Bo - Login without privileges
+    * Bug #1029: Spelling Mistake "Developer Toolbar"
+    * Bug #1037: SLS_Bo - Bug on EditType (IP)
+    * Bug #1066: SLS_Init - Bdd ping crash
+    * Bug #1067: SLS_Bo - Generate Bo redirect on login
+    * Bug #1079: User_Bo - Comment of bearer
+    * Bug #1081: SLS_Bo - Delete lang
+    * Bug #1091: User_Bo - this.toolbar is null in production mode
+    * Bug #1092: User_Bo - date is modified to now in Bo_Edit
+    * Bug #1099: SLS_Bo - Edit Foreign Key
+    * Bug #1116: SLS_Model - Multiple FK
+    * Bug #1118: Date type columns are not correctly set if they are non null
+    * Bug #1146: SLS_View - Bug with HTML5 doctype
+    * Bug #1161: User_Bo - FkAC columns with same part of name
+    * Bug #1162: User_Bo - Bearer on not default database
+    * Bug #1166: SLS_String::paginate - Value containing array
+    * Bug #1168: SLS_Model - i18n & type position
+    * Bug #1169: SLS_Core - Deployment short tags
+    * Bug #1174: Catch compress error for JS and CSS
+    * Bug #1231: Retrieve the parent protocol when create action or controller
+    * Bug #1257: DB par défaut
+    * Bug #1258: SLS_Bo - Fatal when we try to add a new lang
+    * Bug #1514: SLS_Model - Bug with setter with a type file
+    * Feature #210: Develop view caching system
+    * Feature #444: Manage cdn servers
+    * Feature #930: SLS_Services_JSON - Remove class
+    * Feature #994: SLS_Date - Add getAge() function
+    * Feature #997: SLS_Core - Find a way to set Robots informations in headers
+    * Feature #1001: SLS_Bo - Display template used by any action
+    * Feature #1006: SLS_FrontModel - Deleting cascade
+    * Feature #1007: SLS_Date - custom pattern in getDate()
+    * Feature #1008: SLS_Bo - Allow to click on each bo
+    * Feature #1011: SLS_FrontModel - toXML() & pdoToXML() improvements
+    * Feature #1013: Do not force uppercase for translations of controllers, actions, and page titles
+    * Feature #1016: Choix du doctype lors de la création d'un template
+    * Feature #1017: SLS Developper Toolbar CSS
+    * Feature #1019: Allow specific domain on specific language
+    * Feature #1021: Develop a Uniqid class for JS
+    * Feature #1022: Develop a class to manage Hash URL in JS
+    * Feature #1024: SLS_FrontModel - default value for FK
+    * Feature #1026: User_Bo - Password Management (complexity & expire)
+    * Feature #1060: SLS_Session - Add a method to get session_id
+    * Feature #1068: SLS_Bo - Generate Bo time limit
+    * Feature #1086: SLS_Generic switchLang - Add Parameters more and domain
+    * Feature #1095: SLS_FrontModel - Default value for type file
+    * Feature #1103: SLS_Bo - Forward on admin rights after generating user bo
+    * Feature #1108: SLS_Bo - Allow to disable monitoring log
+    * Feature #1140: Add mode "not_in" to the searchModels function
+    * Feature #1165: SLS_BoEdit - Remember filters on listing redirect
+    * Feature #1167: SLS_HttpRequest - Detecting parameters with array values in GET
+    * Feature #1170: SLS_Model - Type Complexity
+    * Feature #1171: SLS_Model - Type numeric
+    * Feature #1173: Add multiple prod option in deployement tool
+    * Feature #1243: INSTALL file
+    * Feature #1488: SLS_FrontModel - Implement __toString()
+    * Feature #1496: SLS_Dtd - Allow to create custom xsl variable
+    * Feature #1793: SLS_FrontModel - Access updateArray
+    * Feature #1795: Uploading multiple files
+    * Feature #1969: SLS_Email - Upgrade setPlainText
+    * Feature #1979: SLS_FrontModel - New method clear()
+    * Feature #1980: SLS_FrontModel - Magic methods
+    * Feature #1995: SLS_Core - Manage project release
+    * Feature #1998: SLS_Core - array format
+    * Feature #2003: Remember the action to redirect to if ever the user is forwarded to the login
+    * Feature #2007: SLS_Sql - Explain queries
+
+
+15/05/2012: Version 1.0.8
+-------------------------
+	
+    * Bug #864: Replace all ereg() & eregi() deprecated functions
+    * Bug #890: SLS_Bo - Project settings edit
+    * Bug #936: SLS_BoListing - Add group by clause in countModels()
+    * Bug #938: SLS_BoListing - Check specific types in joined tables
+    * Bug #942: SLS_BoExport - Js Error
+    * Bug #953: SLS 1.0.7 : Installation Crash
+    * Bug #959: Sls_Bo - Js Validation
+    * Bug #985: SLS_Bo - JS Error when no privilege edit
+    * Bug #995: SLS_Core - bug with bearer adding on a model
+    * Feature #31: Migration Step
+    * Feature #50: Implement Dynamic Bo Generation of Email Management
+    * Feature #188: Auto-detect foreign keys in the generation of Models
+    * Feature #799: User_Bo - Js validations
+    * Feature #861: SLS_Model - Add a new type address
+    * Feature #881: User_Bo - create a new generic action deleteFile()
+    * Feature #882: SLS_Model - Move old type file before erase it
+    * Feature #883: User_Bo - create a new generic action bearerAc()
+    * Feature #884: User_Bo - add ac on bearers
+    * Feature #885: SLS_Core - Modify url mapping when mod_rewrite off
+    * Feature #887: SLS_Core - Clear logs
+    * Feature #889: SLS_Bo EditModel - Add <label> on column
+    * Feature #891: User_Bo - reduce numbers of mysql queries in SLS_BoListing
+    * Feature #892: SLS_Bo Rights - User_Bo custom privileges
+    * Feature #896: SLS_Dtd - Add other predefined vars
+    * Feature #908: Remove PHP short tags
+    * Feature #909: SLS_Date - Upgrade getDiff()
+    * Feature #911: SLS_Model - Add a new type position
+    * Feature #912: SLS_FrontModel - add function getColumns()
+    * Feature #913: Add reference in SLS_FrontStatic & SLS_FrontComponent
+    * Feature #914: SLS_Cookie - Add a function flush()
+    * Feature #915: SLS_Bo - add href on each models
+    * Feature #917: BoConnection - set default action for controller
+    * Feature #918: SLS_Model - add function reference to fk
+    * Feature #919: Developper Header
+    * Feature #920: Allow to choose your HTML doctype
+    * Feature #923: SLS_View - Improve XML structure
+    * Feature #924: SLS_Security - Rename functions encrypte & decrypte
+    * Feature #925: SLS_View - Remove loading of UserHeader & UserBody
+    * Feature #927: SLS_Core - Modify <ControllerParams>
+    * Feature #928: Add a new Statics for cookies
+    * Feature #929: SLS_Email - Bind automatically mail.xml configs
+    * Feature #932: SLS_Bo - ckEditor support HTML5 video
+    * Feature #933: SLS_View - Find a way to parse HTML
+    * Feature #934: SLS_Init - Prefill default HTML templates for email settings
+    * Feature #939: htaccess add new extensions for html5
+    * Feature #941: Auto Compress JS
+    * Feature #943: SLS_BoListing - Redesign th col
+    * Feature #948: SLS_Bo - ckEditor support "rel" attribute in link plugin
+    * Feature #949: SLS_Date : gives the last day of the month from a month / year
+    * Feature #951: SLS_Date - Rename "seconde" to "second"
+    * Feature #954: SLS_Bo - Export in HTML
+    * Feature #960: SLS_Core - Rename path config of Plugins directory
+    * Feature #970: Add button "Add and continue" or "Save and Continue"
+    * Feature #972: Add an icon to see if the model is up to date in model listing
+    * Feature #973: SLS_Bo - Bind ckEditor on custom textareas
+    * Feature #974: SLS_Bo - allow to specify default values on Model
+    * Feature #976: SLS_FrontModel - generic function toXML()
+    * Feature #977: SLS_Bo - generic function tab()
+    * Feature #978: User_Bo - Deploy Shadowbox
+    * Feature #979: User_Bo - default order desc on listing
+    * Feature #980: SLS_Bo - Relocate all model generations in UpdateModel
+    * Feature #982: SLS_Core - Increase lifetime of sls cookies
+    * Feature #986: SLS_Model - Allow to edit FK
+    * Feature #988: SLS_Bo - Allow to manage email templates
+    * Feature #991: SLS_Bo - Add a new privilege "Email"
+    * Feature #992: SLS_Bo - IE6 Message
+
+
+17/02/2012: Version 1.0.7
+-------------------------
+	
+    * Bug #809: SLS_FrontModel - searchModels failed with alias
+    * Bug #810: User_Bo - bug with right click
+    * Bug #818: User_Bo - bug with left click & right click
+    * Bug #823: SLS_Bo - cache bug
+    * Bug #843: SLS_XmlToClipboard bug
+    * Bug #859: SLS_FrontComponent & cache on 1.0.6
+    * Bug #862: SLS_Bo - Bug with column comment
+    * Bug #863: Allow fonts extensions in htaccess
+    * Bug #867: Check reset SillySmart features
+    * Bug #869: SLS_Cache - check concurrent access
+    * Bug #872: SLS_Bo - Nullable date field
+    * Feature #442: SLS_FrontModel - Implement filters
+    * Feature #811: SLS_String - add IpV6 validation
+    * Feature #813: SLS_String - upgrade paginate() function
+    * Feature #814: Session - add current translated controllers & actions
+    * Feature #819: SLS_String - getUrlFileImg()
+    * Feature #820: SLS_String - getUrlFile()
+    * Feature #821: SLS_Model - Add no-multilanguage on columns
+    * Feature #822: SLS_Bo - Rename "Production on/off"
+    * Feature #824: SLS_Bo - Add maintenance mode
+    * Feature #825: SLS_Core - Allow access action with only controller information
+    * Feature #844: SLS_Dev - Remove XML in source
+    * Feature #845: SLS_String - add objectToArray() function
+    * Feature #846: SLS_Tracing - Upgrade stack traces
+    * Feature #847: SLS_Bo - Add a link to front office
+    * Feature #851: DefaultController - create new action
+    * Feature #854: SLS_Bo - create a generic js object
+    * Feature #858: Create a sql query builder class
+    * Feature #860: SLS_Core - Modify page title
+    * Feature #866: SLS_Bo - construct slsBuild in user bo
+    * Feature #868: SLS_Init - Prefill fields when it's possible
+    * Feature #870: Include GPL License in root tree
+
+
+08/12/2011: Version 1.0.6
+-------------------------
+
+    * Bug #564: Select JS under IE 8
+    * Bug #565: SLS_Bo - domainName endslashes
+    * Bug #568: SLS_Model - searchModels on a different table
+    * Bug #577: SLS_Bo - Place default language in first in menu
+    * Bug #685: Chemin relatif pour CKFinder
+    * Bug #688: SLS_Bo - Bug deleting action add
+    * Bug #691: Catch MySQL connection error
+    * Bug #694: Error 500 quand fichier fichier cache.xml corrompu
+    * Bug #712: Alias of db with underscore failed
+    * Bug #715: SLS_Bo - Export with multi natural join
+    * Bug #743: SLS_FrontModel - High performance problem
+    * Bug #808: Bug with SLS_Email
+    * Feature #395: SLS_BO - Add a generic AC on FK
+    * Feature #556: SLS BO - Allow to Edit specific type
+    * Feature #567: User_Bo - Shift key for multiple selecting
+    * Feature #569: Reduce htaccess
+    * Feature #584: SLS_Model - reference db in public
+    * Feature #656: SLS_BoExport - Modify join for multiple natural joins
+    * Feature #692: SLS_Sql - new function to call stored procedures
+    * Feature #696: SLS_Generic - New function actionIdExists()
+    * Feature #697: SLS_Generic - New function translateActionId()
+    * Feature #714: MySQL InnoDb transaction
+    * Feature #741: SLS_Generic getControllerId
+    * Feature #752: Add IN Clause into the where definition of the search Model
+    * Feature #753: SLS_Bo - Add clause "in" in bo listing filters
+    * Feature #764: SLS_Lang - Avoid switching on a disabled lang
+
+
+11/08/2011: Version 1.0.5
+-------------------------
+
+    * Bug #214: Do not load Project JS in SLS Bo
+    * Bug #443: SLS_Email - Upgrade toQuotedPrintable()
+    * Bug #454: Upload Files - Special Characters
+    * Bug #458: Catch Cache
+    * Bug #459: SLS_String - strpos fatal error
+    * Bug #461: Modify label "Sign out" to "Logout" everywhere in BO SLS and BO User
+    * Bug #464: SLS_Bo - default value for input text
+    * Bug #482: Protect getModel when the model is not uptodate
+    * Bug #493: Models - Error with '-' in model names
+    * Bug #514: SLS_XMLToolBox - Pb with utf8 and space chars
+    * Bug #522: Add default timezone for php 5.3
+    * Bug #535: Set an action to online after it's been setted offline
+    * Bug #562: Inverse controllers & actions mapping
+    * Bug #563: Default page loop indefinitely 2nd time
+    * Feature #281: View - Remove Loaded Feature
+    * Feature #312: SLS_Bo - Right click edit and delete
+    * Feature #404: SLS_Bo - Develop a sql action
+    * Feature #419: SLS_Bo - Create a new dynamic action "Clone"
+    * Feature #424: SLS_Bo - Rename all generated actions with a specific name in each language
+    * Feature #425: SLS_Bo - Use template xsl
+    * Feature #426: SLS_Bo - Allow to create generics unloaded templates from bo
+    * Feature #448: Implement component
+    * Feature #453: SLS_String - arrayToObject()
+    * Feature #456: Let choose between php function mail() or SMTP connection in SLS_Email
+    * Feature #457: CKEditor - Force UTF-8
+    * Feature #460: SLS_Bo - Allow multiple natural join in bo listing
+    * Feature #462: SLS_Bo - Add syntax highlighter in CkEditor
+    * Feature #490: SLS_BoEdit - Implement error getter
+    * Feature #494: Create an action init called before each action
+    * Feature #495: SLS_Core - Monitor execution times of an action
+    * Feature #512: SLS_Bo - Allow to generate ckeditor header
+    * Feature #557: Recode SLS_Cookie
+    * Feature #558: CkEditor & CkFinder - Remove all samples & doc
+    * Feature #560: SLS_Model - Modify specific type password
+
+
+22/04/2011: Version 1.0.4
+-------------------------
+
+    * Bug #190: Escape problems with generics languages files
+    * Bug #197: SLS_Bo - Model comment is not displayed if not filled
+    * Bug #198: SLS_Bo - Fk & Nullable
+    * Bug #203: We need to add xmlns php in each generated views
+    * Bug #204: mysql unique statement bug
+    * Bug #205: SLS_Bo - Edit a controller
+    * Bug #207: Don't include Langages Files into XML
+    * Bug #215: Reduce JS file sillySmart.js
+    * Bug #219: Order Bo Actions
+    * Bug #229: SLS_FrontModel bug with nullable fields
+    * Bug #249: Keywords System by action is broken
+    * Bug #262: SLS_String::removePhpChars
+    * Bug #324: Can't put character & in page title with the SLS BO
+    * Bug #384: MySQL Type Float
+    * Bug #385: Defaut template automatically load for root domain
+    * Bug #386: SLS_Bo - Bug with file image thumb
+    * Bug #387: SLS_Bo - Section hover bug
+    * Bug #388: SLS_String - Comment $ in removePhpChars()
+    * Bug #390: Models - Bug with nullable specific types
+    * Bug #391: SLS_Bo - Bug with nullable enum field
+    * Bug #392: Model - bug with fuckin' deceptive timestamp mysql type
+    * Bug #402: SLS_Date - mktime() bug
+    * Bug #409: SLS_String bug with isValidUrl()
+    * Bug #418: SLS_FrontModel - Bug with __get()
+    * Feature #21: Allow using of virtual hosts
+    * Feature #151: Allow to disable actions or to have off line mode
+    * Feature #225: Add possibility to disable-output-escaping in template displayLang in XSL views
+    * Feature #247: SLS_Bo - Add a generic action to manage files upload
+    * Feature #248: Modify loading of multilanguage sentences
+    * Feature #263: Generate admins listing
+    * Feature #264: SLS_Bo - Add a new specific type 'hexa color'
+    * Feature #308: SLS_BO - Export upgrade
+    * Feature #322: SLS_Bo - Password type edit
+    * Feature #323: SLS_Date - Add a generic getter
+    * Feature #325: Add incremental possibility to $this->setPageTitle()
+    * Feature #326: Sort alphabetically controllers
+    * Feature #389: SLS_String - Add a span in paginate()
+    * Feature #393: SLS_Bo - Upgrade lang management
+    * Feature #396: SLS_FrontModel - Add a generic function clearModels
+    * Feature #397: SLS_Bo - Add carying feature on Models
+    * Feature #398: SLS_Bo - Allocate public files within several directories
+    * Feature #399: SLS_Bo - FileUpload upgrade
+    * Feature #401: SLS_String - Add function getMimeType()
+    * Feature #403: Controller Defaut -> send http error header
+    * Feature #411: SLS_FrontModel - Implement better join in searchModels
+    * Feature #412: SLS_FrontModel - Move in trash, files type when deleting models
+    * Feature #413: SLS_FrontModel - Implement MySQL type set
+    * Feature #414: SLS_Bo - Modify display of generating models & bo
+    * Feature #415: SLS_FrontModel - Implement pattern in fk description
+    * Feature #416: SLS_Bo - Allow to translate generated bo
+    * Feature #417: SLS_FrontModel - Implement specific uniqd type
+    * Feature #420: SLS_Bo - Allow to manage multiple domains
+    * Feature #421: SLS_Bo - Map controllers & actions on multiple domains
+    * Feature #422: SLS_Bo - Check the use of "protocol" in all url buildings or forward
+    * Feature #423: Logout Button on SLS Bo
+    * Feature #427: SLS_GenericController - Add new objects aliases
+
+
+02/12/2010: Version 1.0.3
+-------------------------
+
+    * Bug #277: SLS_BO - Type file nullable bug
+    * Bug #280: SLS_BO - Clone Actions Bug
+    * Bug #310: SLS_Bo_Edit - Impossible de edit fk
+    * Bug #314: Order Logs
+    * Bug #317: SLS_BO - Defaut value for radio
+    * Bug #318: SLS_Bo - percent width on big screen
+    * Bug #320: Bug with SLS pager
+    * Bug #321: Windows install bug on SLS_String
+    * Feature #217: Add a method in SLS_Lang.class.phg to get the default Language
+    * Feature #278: SLS_BO - Create a new privilege
+    * Feature #279: SLS_Generics - Upgrade getActionId()
+    * Feature #282: SLS_BO - Order Models
+    * Feature #283: Add a class SLS_Xsl
+    * Feature #307: SLS_BO - Hover Menu
+    * Feature #309: SLS_BO - Change ip type
+    * Feature #311: SLS_Bo - Upgrade Type File Image
+    * Feature #313: Manage .png files in SLS
+    * Feature #315: SLS_Bo - Add a generic date picker
+    * Feature #316: SLS_Bo - Modify browsing
+    * Feature #319: XML to Clipboard
+
+
+11/11/2010: Version 1.0.2
+-------------------------
+
+    * Bug #269: SLS_BO - Delete FK Bug
+    * Bug #270: SLS_BO - Delete Specific Type Bug
+    * Bug #272: SLS_BO - Unique statement bug
+    * Feature #271: SLS_BO - Add a specifc type file
+    * Feature #273: SLS_BO - Change password type
+    * Feature #274: SLS_BO - Format password type
+    * Feature #275: SLS_BO - Format url type
+    * Feature #276: SLS_Init & SLS_BO - Add a new generic translation for file size
+
+
+06/05/2010: Version 1.0.1
+-------------------------
+
+    * Feature #17: Design generated BO
+    * Feature #32: Connections tests
+    * Feature #55: Allow using of multiple globals templates
+    * Feature #183: SLS_Bo - Post dispatch modifications
+    * Feature #186: SLS_Bo allow user to delete a specific fk
+    * Feature #187: SLS_Bo allow user to delete a specific type
+    * Feature #193: Let's include Textile code in php doc
+    * Feature #195: Format @see tags to use it in doc
+    * Feature #202: SLS_Bo - Add a generic action to manage lang sentences
+    * Feature #208: SLS_FrontModel() -> allow using of alias
+    * Feature #212: SLS_Date - Add diff feature
+
+
+29/12/2009: Version 1.0.0
+-------------------------
+
+    * Bug #28: htaccess errors should be target SLS_Error controller to dispatch to user side or sls side
+    * Bug #29: Clean SLS Style Directories
+    * Bug #40: Rename /Tools to /Plugins
+    * Bug #143: Relocate SLS_Captcha
+    * Bug #144: Catch all XML Errors with SLS_Tracing
+    * Bug #152: Display specific types of a Model
+    * Bug #153: Sls_Bo - Columns from natural join table aren't correctly described
+    * Bug #156: SLS_Bo - Humanize generics informations
+    * Bug #158: Rename $_SESSION keys SLS_SESSION by private key hash
+    * Bug #163: Rename all longtest xsl concat with new globals xsl variables
+    * Bug #184: SLS_FrontModel()->setColumnComment() doesn't preserve AI extra
+    * Bug #185: SLS_FrontModel()->setTableComment() doesn't escape slashes
+    * Bug #191: Convert not proper UTF-8 in SLS_XMLToolbox
+    * Feature #7: Home integration
+    * Feature #8: Getting started integration
+    * Feature #9: Implement a XSL main template
+    * Feature #10: Implement dynamic patterns in multilanguage files
+    * Feature #11: Teasing documentation
+    * Feature #12: Outsource Back-Office css in external file
+    * Feature #19: Plugins Management
+    * Feature #20: Add searchModels() features
+    * Feature #30: Create an Alias to merge SLS_Generic::redirect(SLS_Generic::getFullPath());
+    * Feature #34: include a login box on the teaser website
+    * Feature #36: Create own Plugin into SillySmart BO
+    * Feature #38: Develop a SillySmart update Manager
+    * Feature #51: Generic format errors in controller
+    * Feature #53: Model Template to account.sillysmart.org
+    * Feature #56: Make an alias to useModel in GenericController
+    * Feature #142: SLS_Bo Modifications
+    * Feature #154: Add a SLS_BoExport feature
+    * Feature #157: Account.sillysmart 's integration
+    * Feature #159: Create a config which allow sharing session
+    * Feature #160: Allow Protocol http and https for entire website and specific controllers
+    * Feature #161: Add post vars to tracking
+    * Feature #181: Allow mail logs visualisation in SLS_Bo
