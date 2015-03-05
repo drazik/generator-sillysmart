@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "description": "Yeoman generator to kickstart a SillySmart Project",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "SillySmart"
   ],
-  "author": "Cyrille Perois",
+  "author": "Cyrille Perois <cperois@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drazik/generator-sillysmart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drazik/generator-sillysmart/issues"
+  },
   "license": "ISC",
   "dependencies": {
     "yeoman-generator": "^0.18.9"
