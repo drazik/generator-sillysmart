@@ -82,4 +82,4 @@ This task watches the following files :
 
 ## Contributing
 
-TODO
+This generator is open source. You can improve it. Just fork the repository, create a branch for your new feature and make a pull request when everything is fine.
