@@ -36,15 +36,13 @@ This will be used as your `package.json` name parameter. You can type whatever y
 
 At Wandi, we use [Gulp](http://gulpjs.com/) as our main build system. So this generator was firstly made with this in mind. If you want to use Gulp, then answer Yes. If you want to use another build system like [Grunt](http://gruntjs.com/), [Brunch](http://brunch.io/), [Broccoli](http://broccolijs.com/) or whatever, just answer No and install your prefered system by yourself.
 
-In next releases, we want to add some common build systems.
-
 ### Gulp tasks
 
 You will then be asked which tasks you would like to use. Select the tasks you need by navigating with arrow keys, pressing `space` key, then hit `enter`.
 
 #### Gulp task : styles
 
-This task uses [SASS](http://sass-lang.com/) to preprocess your stylesheets, [autoprefixer](https://github.com/postcss/autoprefixer) to automatically add vendor prefixes. Sourcemaps are added to the resulting CSS file in development mode (see Configuration section of this documentation to learn how to switch between production and development modes).
+This task uses [SASS](http://sass-lang.com/) to preprocess your stylesheets, [autoprefixer](https://github.com/postcss/autoprefixer) to automatically add vendor prefixes. Sourcemaps are added to the resulting CSS file.
 
 By default, this task takes `./Public/Style/Scss/Global.scss` as source and compile it in `./Public/Style/Css/Global.css`.
 
