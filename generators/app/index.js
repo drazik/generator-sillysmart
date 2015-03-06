@@ -1,6 +1,10 @@
 'use strict';
 
+var http = require('http');
+var fs = require('fs');
 var generators = require('yeoman-generator');
+var tar = require('tar');
+var rimraf = require('rimraf');
 
 module.exports = generators.Base.extend({
     promptUser: function() {
@@ -55,64 +59,59 @@ module.exports = generators.Base.extend({
             }
         }
     },
-    copySlsFiles: function() {
-        this.directory('sls', '.');
+    downloadSillySmartArchive: function() {
+        var done = this.async();
 
-        // Because previous line don't copy empty directories !
-        this.mkdir('./Langs');
-        this.mkdir('./Langs/Actions');
-        this.mkdir('./Langs/Generics');
+        var file = fs.createWriteStream('sls.tar');
 
-        this.mkdir('./Mvc/Controllers');
-        this.mkdir('./Mvc/Controllers/Actions');
-        this.mkdir('./Mvc/Controllers/Components');
-        this.mkdir('./Mvc/Controllers/Statics');
+        this.log('Downloading last SillySmart release...');
+        http.get('http://www.sillysmart.org/Releases/Access/Rlz/12.sls', function(response) {
+            response.pipe(file);
 
-        this.mkdir('./Mvc/Models');
-        this.mkdir('./Mvc/Models/Objects');
-        this.mkdir('./Mvc/Models/Sql');
+            file.on('finish', function() {
+                file.close(function() {
+                    this.log('Done.');
+                    done();
+                }.bind(this));
+            }.bind(this))
+        }.bind(this));
+    },
+    extractSillySmartFiles: function() {
+        var slsTar = fs.createReadStream('./sls.tar');
 
-        this.mkdir('./Mvc/Views/Body');
-        this.mkdir('./Mvc/Views/Generics');
-        this.mkdir('./Mvc/Views/Headers');
+        this.log('Extracting SillySmart files...');
+        slsTar.pipe(tar.Extract({ path: '.' }));
+        this.log('Done.');
+    },
+    deleteSillySmartArchive: function() {
+        var done = this.async();
 
-        this.mkdir('./Plugins');
-
-        this.mkdir('./Public/Cache');
-        this.mkdir('./Public/Files');
-
-        this.mkdir('./Public/Style');
-        this.mkdir('./Public/Style/Css');
-        this.mkdir('./Public/Style/Fonts');
-        this.mkdir('./Public/Style/Img');
-
-        this.mkdir('./Public/Scripts/Javascript');
-        this.mkdir('./Public/Scripts/Javascript/Dyn');
-        this.mkdir('./Public/Scripts/Javascript/Statics');
-
-        this.mkdir('./Sls/Controllers/Components');
-
-        this.mkdir('./Sls/Downloads');
-        this.mkdir('./Sls/Downloads/Plugins');
-        this.mkdir('./Sls/Downloads/Releases');
-
-        this.mkdir('./Sls/Logs');
-
+        this.log('Deleting SillySmart archive...');
+        rimraf('./sls.tar', function() {
+            this.log('Done.');
+            done();
+        }.bind(this));
+    },
+    addTasksDirectories: function() {
         // Directories for each selected task
-        if (this.answers.tasks.indexOf('styles') !== -1) {
-            this.mkdir('./Public/Style/Scss');
-        }
+        if (this.answers.tasks) {
+            if (this.answers.tasks.indexOf('styles') !== -1) {
+                this.mkdir('./Public/Style/Scss');
+            }
 
-        if (this.answers.tasks.indexOf('javascripts') !== -1) {
-            this.mkdir('./Public/Scripts/Javascript/Dyn/Uncompressed');
-        }
+            if (this.answers.tasks.indexOf('javascripts') !== -1) {
+                this.mkdir('./Public/Scripts/Javascript/Dyn/Uncompressed');
+            }
 
-        if (this.answers.tasks.indexOf('images') !== -1) {
-            this.mkdir('./Public/Style/Img.uncompressed');
+            if (this.answers.tasks.indexOf('images') !== -1) {
+                this.mkdir('./Public/Style/Img.uncompressed');
+            }
         }
     },
     generatePackageJson: function() {
-        this.template('gulp/package.json', './package.json', { packageName: this.answers.projectName });
+        if (this.answers.gulp) {
+            this.template('gulp/package.json', './package.json', { packageName: this.answers.projectName });
+        }
     },
     generateGulpFile: function() {
         if (this.answers.gulp) {
