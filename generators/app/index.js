@@ -7,6 +7,25 @@ var tar = require('tar');
 var rimraf = require('rimraf');
 
 module.exports = generators.Base.extend({
+    _getArchive: function(url, done) {
+        http.get(url, function(response) {
+            if (response.statusCode === 302) {
+                var url = response.headers.location;
+
+                this._getArchive(url, done);
+            } else {
+                var file = fs.createWriteStream('sls.tar');
+                response.pipe(file);
+
+                file.on('finish', function() {
+                    file.close(function() {
+                        this.log('Done.');
+                        done();
+                    }.bind(this));
+                }.bind(this));
+            }
+        }.bind(this));
+    },
     promptUser: function() {
         var done = this.async();
 
@@ -62,34 +81,8 @@ module.exports = generators.Base.extend({
     downloadSillySmartArchive: function() {
         var done = this.async();
 
-        var file = fs.createWriteStream('sls.tar');
-
         this.log('Downloading last SillySmart release...');
-        http.get('http://www.sillysmart.org/Home/DownloadLastRelease', function(response) {
-            if (response.statusCode === 302) {
-                var url = response.headers.location;
-
-                http.get(url, function (response) {
-                    response.pipe(file);
-
-                    file.on('finish', function() {
-                        file.close(function() {
-                            this.log('Done.');
-                            done();
-                        }.bind(this));
-                    }.bind(this));
-                }.bind(this));
-            } else {
-                response.pipe(file);
-
-                file.on('finish', function() {
-                    file.close(function() {
-                        this.log('Done.');
-                        done();
-                    }.bind(this));
-                }.bind(this));
-            }
-        }.bind(this));
+        this._getArchive('http://www.sillysmart.org/Home/DownloadLastRelease', done);
     },
     extractSillySmartFiles: function() {
         var slsTar = fs.createReadStream('./sls.tar');
