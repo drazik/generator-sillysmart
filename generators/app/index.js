@@ -65,15 +65,30 @@ module.exports = generators.Base.extend({
         var file = fs.createWriteStream('sls.tar');
 
         this.log('Downloading last SillySmart release...');
-        http.get('http://www.sillysmart.org/Releases/Access/Rlz/12.sls', function(response) {
-            response.pipe(file);
+        http.get('http://www.sillysmart.org/Home/DownloadLastRelease', function(response) {
+            if (response.statusCode === 302) {
+                var url = response.headers.location;
 
-            file.on('finish', function() {
-                file.close(function() {
-                    this.log('Done.');
-                    done();
+                http.get(url, function (response) {
+                    response.pipe(file);
+
+                    file.on('finish', function() {
+                        file.close(function() {
+                            this.log('Done.');
+                            done();
+                        }.bind(this));
+                    }.bind(this));
                 }.bind(this));
-            }.bind(this))
+            } else {
+                response.pipe(file);
+
+                file.on('finish', function() {
+                    file.close(function() {
+                        this.log('Done.');
+                        done();
+                    }.bind(this));
+                }.bind(this));
+            }
         }.bind(this));
     },
     extractSillySmartFiles: function() {
