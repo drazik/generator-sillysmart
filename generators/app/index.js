@@ -83,14 +83,23 @@ module.exports = generators.Base.extend({
             done();
         }.bind(this));
     },
+    createSelectedTasksArray: function() {
+        if (this.answers.tasks) {
+            this.selectedTasks = [];
+
+            for (var i = 0, length = this.answers.tasks.length; i < length; ++i) {
+                this.selectedTasks.push(this.tasks[this.answers.tasks[i]]);
+            }
+        }
+    },
     createDependenciesArray: function() {
         if (this.answers.tasks) {
             var sharedDependencies = ['require-dir', 'gulp', 'gulp-plumber', 'gulp-util', 'minimist'];
 
             this.dependencies = sharedDependencies;
 
-            for (var i = 0, length = this.answers.tasks.length; i < length; ++i) {
-                this.dependencies = this.dependencies.concat(this.tasks[this.answers.tasks[i]].dependencies);
+            for (var i = 0, length = this.selectedTasks.length; i < length; ++i) {
+                this.dependencies = this.dependencies.concat(this.selectedTasks[i].dependencies);
             }
         }
     },
@@ -118,8 +127,8 @@ module.exports = generators.Base.extend({
     },
     addTasksDirectories: function() {
         if (this.answers.tasks) {
-            for (var i = 0, length = this.answers.tasks.length; i < length; ++i) {
-                this.mkdir(this.tasks[this.answers.tasks[i]].srcPath);
+            for (var i = 0, length = this.selectedTasks.length; i < length; ++i) {
+                this.mkdir(this.selectedTasks[i].srcPath);
             }
         }
     },
@@ -135,20 +144,23 @@ module.exports = generators.Base.extend({
     },
     copyTasksFiles: function() {
         if (this.answers.tasks) {
-            var watchTasks = [];
+            var fileName;
 
             this.mkdir('gulp');
             this.mkdir('gulp/tasks');
 
             for (var i = 0, length = this.answers.tasks.length; i < length; ++i) {
-                this.copy('gulp/tasks/' + this.answers.tasks[i] + '.js','gulp/tasks/' + this.answers.tasks[i] + '.js');
-                watchTasks.push(this.tasks[this.answers.tasks[i]]);
+                fileName = this.answers.tasks[i] + '.js';
+                this.copy('gulp/tasks/' + fileName,'gulp/tasks/' + fileName);
+                this.copy('gulp/configs/' + fileName, 'gulp/configs/' + fileName);
             }
 
             var tasksArrayString = '[\'' + this.answers.tasks.join('\',\'') + '\']';
             this.template('gulp/tasks/compile.js', './gulp/tasks/compile.js', { tasksArray: tasksArrayString });
 
-            this.template('gulp/tasks/watch.js', './gulp/tasks/watch.js', { tasks: watchTasks });
+            this.template('gulp/tasks/watch.js', './gulp/tasks/watch.js', { tasks: this.selectedTasks });
+
+            this.template('gulp/config.js', 'gulp/config.js', { tasks: this.selectedTasks });
         }
     },
     installNpmDependencies: function() {
