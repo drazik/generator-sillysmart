@@ -7,6 +7,7 @@ var tar = require('tar');
 var rimraf = require('rimraf');
 
 module.exports = generators.Base.extend({
+    // Utils methods
     _getArchive: function(url, done) {
         http.get(url, function(response) {
             if (response.statusCode === 302) {
@@ -25,6 +26,27 @@ module.exports = generators.Base.extend({
                 }.bind(this));
             }
         }.bind(this));
+    },
+
+    // Generator flow
+    initialize: function() {
+        this.tasks = {
+            styles: {
+                dependencies: ['gulp-sass', 'gulp-autoprefixer', 'gulp-rename', 'gulp-sourcemaps'],
+                srcPath: 'Public/Style/Scss',
+                name: 'styles'
+            },
+            javascripts: {
+                dependencies: ['gulp-browserify', 'gulp-uglifyjs'],
+                srcPath: 'Public/Scripts/Javascript/Dyn/Uncompressed',
+                name: 'javascripts'
+            },
+            images: {
+                dependencies: ['gulp-imagemin', 'gulp-newer'],
+                srcPath: 'Public/Style/Img.uncompressed',
+                name: 'images'
+            }
+        };
     },
     promptUser: function() {
         var done = this.async();
@@ -65,16 +87,10 @@ module.exports = generators.Base.extend({
         if (this.answers.tasks) {
             var sharedDependencies = ['require-dir', 'gulp', 'gulp-plumber', 'gulp-util'];
 
-            var otherDependencies = {
-                styles: ['gulp-sass', 'gulp-autoprefixer', 'gulp-rename', 'gulp-sourcemaps'],
-                javascripts: ['gulp-browserify', 'gulp-uglifyjs'],
-                images: ['gulp-imagemin', 'gulp-newer']
-            };
-
             this.dependencies = sharedDependencies;
 
             for (var i = 0, length = this.answers.tasks.length; i < length; ++i) {
-                this.dependencies = this.dependencies.concat(otherDependencies[this.answers.tasks[i]]);
+                this.dependencies = this.dependencies.concat(this.tasks[this.answers.tasks[i]].dependencies);
             }
         }
     },
@@ -101,18 +117,9 @@ module.exports = generators.Base.extend({
         }.bind(this));
     },
     addTasksDirectories: function() {
-        // Directories for each selected task
         if (this.answers.tasks) {
-            if (this.answers.tasks.indexOf('styles') !== -1) {
-                this.mkdir('./Public/Style/Scss');
-            }
-
-            if (this.answers.tasks.indexOf('javascripts') !== -1) {
-                this.mkdir('./Public/Scripts/Javascript/Dyn/Uncompressed');
-            }
-
-            if (this.answers.tasks.indexOf('images') !== -1) {
-                this.mkdir('./Public/Style/Img.uncompressed');
+            for (var i = 0, length = this.answers.tasks.length; i < length; ++i) {
+                this.mkdir(this.tasks[this.answers.tasks[i]].srcPath);
             }
         }
     },
@@ -128,37 +135,20 @@ module.exports = generators.Base.extend({
     },
     copyTasksFiles: function() {
         if (this.answers.tasks) {
+            var watchTasks = [];
+
             this.mkdir('gulp');
             this.mkdir('gulp/tasks');
 
             for (var i = 0, length = this.answers.tasks.length; i < length; ++i) {
                 this.copy('gulp/tasks/' + this.answers.tasks[i] + '.js','gulp/tasks/' + this.answers.tasks[i] + '.js');
+                watchTasks.push(this.tasks[this.answers.tasks[i]]);
             }
 
             var tasksArrayString = '[\'' + this.answers.tasks.join('\',\'') + '\']';
             this.template('gulp/tasks/compile.js', './gulp/tasks/compile.js', { tasksArray: tasksArrayString });
 
-            var watchTasks = {
-                styles: {
-                    path: 'Public/Style/Scss/**/*.scss',
-                    name: 'styles'
-                },
-                javascripts: {
-                    path: 'Public/Scripts/Javascript/Dyn/Uncompressed/**/*',
-                    name: 'javascripts'
-                },
-                images: {
-                    path: 'Public/Style/Img.uncompressed/**/*',
-                    name: 'images'
-                }
-            };
-
-            var realWatchTasks = [];
-            for (i = 0, length = this.answers.tasks.length; i < length; ++i) {
-                realWatchTasks.push(watchTasks[this.answers.tasks[i]]);
-            }
-
-            this.template('gulp/tasks/watch.js', './gulp/tasks/watch.js', { tasks: realWatchTasks });
+            this.template('gulp/tasks/watch.js', './gulp/tasks/watch.js', { tasks: watchTasks });
         }
     },
     installNpmDependencies: function() {
