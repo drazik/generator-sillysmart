@@ -1,6 +1,6 @@
 {
   "name": "generator-sillysmart",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Yeoman generator to kickstart a SillySmart Project",
   "keywords": [
     "yeoman-generator",

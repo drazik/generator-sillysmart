@@ -85,7 +85,7 @@ module.exports = generators.Base.extend({
     },
     createDependenciesArray: function() {
         if (this.answers.tasks) {
-            var sharedDependencies = ['require-dir', 'gulp', 'gulp-plumber', 'gulp-util'];
+            var sharedDependencies = ['require-dir', 'gulp', 'gulp-plumber', 'gulp-util', 'minimist'];
 
             this.dependencies = sharedDependencies;
 
