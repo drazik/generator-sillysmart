@@ -78,6 +78,10 @@ This task watches the following files :
 * `./Public/Scripts/Javascript/Dyn/Uncompressed/**/*` for `javascripts` task
 * `Public/Style/Img.uncompressed/**/*` for `images` task
 
+## Gulp tasks configuration
+
+Every gulp task comes with its own configuration. You can find and modify configurations in `gulp/configs/{taskName}.js`.
+
 ## Contributing
 
 This generator is open source. You can improve it. Just fork the repository, create a branch for your new feature and make a pull request when everything is fine.
