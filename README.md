@@ -62,7 +62,7 @@ By default, this task takes all images in `./Public/Style/Img.uncompressed` as s
 
 ### Gulp "meta" tasks
 
-If you have selected at least one gulp task, the generator automatically add two "meta" tasks. What we call "meta" tasks is tasks that call other tasks.
+If you have choosed to use Gulp, the generator automatically add two "meta" tasks. What we call "meta" tasks is tasks that call other tasks. If you have not selected any tasks, theses meta tasks will be created but will remain empty.
 
 #### compile
 
