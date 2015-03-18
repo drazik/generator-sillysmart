@@ -18,6 +18,7 @@
   "dependencies": {
     "rimraf": "^2.3.1",
     "tar": "^1.0.3",
-    "yeoman-generator": "^0.18.9"
+    "yeoman-generator": "^0.18.9",
+    "yosay": "^1.0.3"
   }
 }
