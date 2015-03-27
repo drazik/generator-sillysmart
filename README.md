@@ -1,10 +1,10 @@
 # generator-sillysmart
 
-This is a [Yeoman](http://www.yeoman.io/) generator for the PHP framework [SillySmart](http://www.sillysmart.org/) developped by the french web production agency [Wandi](http://www.wandi.fr/).
+This is a [Yeoman](http://www.yeoman.io/) generator for the PHP framework [SillySmart](http://www.sillysmart.org/) developped by the french web production agency [Wandi](http://www.wandi.fr/). SillySmart is an open source MVC framework. Feel free to give it a try !
 
 ## Installation
 
-### Prerequisite
+### Prerequisites
 
 If you don't have NodeJS and NPM installed, the first step is to install it. Go to the [official node website](http://nodejs.org/) and choose the right version for your system.
 
@@ -20,68 +20,46 @@ Then, you need to install generator-sillysmart :
 
 ## How to use
 
+### Main generator
+
 When everything is installed, you can type the following command in a fresh clean project directory :
 
     yo sillysmart
 
 The generator will ask you some questions. Just answer these questions and your SillySmart project is ready !
 
-## Questions
+### Gulp subgenerator
 
-### Project name
+At Wandi, we use [Gulp](http://gulpjs.com/) as our main build system. So this generator was firstly made with this in mind. The main generator asks if you want to use Gulp. If it's the case, then answer Yes. The main generator will call this subgenerator, and the package name you have previously entered will be passed to it.
 
-This will be used as your `package.json` name parameter. You can type whatever your want, it will be transformed into a well-formatted NPM package name.
+If you want to use another build system like [Grunt](http://gruntjs.com/), [Brunch](http://brunch.io/), [Broccoli](http://broccolijs.com/) or whatever, just answer No and install your favourite system by yourself.
 
-### Gulp
+If you have previously installed SillySmart and just want to install Gulp and some basic dependencies for further tasks, you can call this subgenerator by typing the following line in your terminal :
 
-At Wandi, we use [Gulp](http://gulpjs.com/) as our main build system. So this generator was firstly made with this in mind. If you want to use Gulp, then answer Yes. If you want to use another build system like [Grunt](http://gruntjs.com/), [Brunch](http://brunch.io/), [Broccoli](http://broccolijs.com/) or whatever, just answer No and install your prefered system by yourself.
+    yo sillysmart:gulp [package-name]
 
-### Gulp tasks
+This subgenerator will create a `package.json`, a generic `gulpfile.js` and install `gulp`, `require-dir`, `gulp-plumber`, `gulp-util`, and `minimist`.
 
-You will then be asked which tasks you would like to use. Select the tasks you need by navigating with arrow keys, pressing `space` key, then hit `enter`.
+The package name is optional. If you don't provide it, it will be equals to "your-package-name". It is just used in `package.json`.
 
-#### Gulp task : styles
+### Task subgenerator
 
-This task uses [SASS](http://sass-lang.com/) to preprocess your stylesheets, [autoprefixer](https://github.com/postcss/autoprefixer) to automatically add vendor prefixes. Sourcemaps are added to the resulting CSS file.
+Some task that are used in every project are shipped with the generator. You can install them by calling the task subgenerator :
 
-By default, this task takes `./Public/Style/Scss/Global.scss` as source and compile it in `./Public/Style/Css/Global.css`.
+    yo sillysmart:task task-name
 
-#### Gulp task : javascripts
+`task-name` must be one of the three tasks that are shipped :
 
-This task uses [Browserify](http://browserify.org/). It allows you to write your app with clean CommonJS (node style) modules that can `require` other modules, etc...
+* `images` : lossless image compression using `imagemin`
+* `javascripts` : javascript bundling and minifcation using `browserify` and `uglifyJS`
+* `styles` : CSS preprocessing using `sass`
 
-The result is uglified with [UglifyJS](https://github.com/mishoo/UglifyJS).
+You can check `generator/task/templates/tasks` to see what is the content of each task. The configuration of each task is stored in `gulp/configs/{task-name}.js`. Default configurations fit the SillySmart's directories architecture.
 
-By default, this task takes `./Public/Scripts/Javascript/Dyn/Uncompressed/app.js` as source and compile it in `Public/Scripts/Javascript/Dyn/app.js`.
+Obviously, you can update the tasks installed using this subgenerator and their configuration, and create your own tasks (we recommend you to create a `compile` and a `watch` task, for example).
 
-#### Gulp task : images
-
-This task uses [Imagemin](https://github.com/imagemin/imagemin) to compress your images withouth losing some of their quality.
-
-By default, this task takes all images in `./Public/Style/Img.uncompressed` as source and put compressed ones in `./Public/Style/Img`.
-
-### Gulp "meta" tasks
-
-If you have choosed to use Gulp, the generator automatically add two "meta" tasks. What we call "meta" tasks is tasks that call other tasks. If you have not selected any tasks, theses meta tasks will be created but will remain empty.
-
-#### compile
-
-The `compile` meta task just call all the tasks you have selected. If you have selected `styles` and `images`, if you type `gulp compile`, then it will execute `styles` and `images` tasks.
-
-#### watch
-
-This task launch watchers on some files, depending on the tasks you have selected. When a change is detected, the right task is executed.
-
-This task watches the following files :
-
-* `./Public/Style/Scss/**/*.scss` for `styles` task
-* `./Public/Scripts/Javascript/Dyn/Uncompressed/**/*` for `javascripts` task
-* `Public/Style/Img.uncompressed/**/*` for `images` task
-
-## Gulp tasks configuration
-
-Every gulp task comes with its own configuration. You can find and modify configurations in `gulp/configs/{taskName}.js`.
+The main generator is calling this subgenerator for each task you have selected.
 
 ## Contributing
 
-This generator is open source. You can improve it. Just fork the repository, create a branch for your new feature and make a pull request when everything is fine.
+This generator is open source. You can improve it. Just fork the repository, create a branch for your new feature and make a pull request when everything is fine. You can also contribute by opening an issue if you find a bug or have an idea for new features.
