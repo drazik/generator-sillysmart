@@ -2,6 +2,7 @@
 
 var yeoman = require('yeoman-generator');
 var fs = require('fs');
+var yosay = require('yosay');
 var taskDependencies = require('./taskdependencies');
 
 module.exports = yeoman.generators.NamedBase.extend({
@@ -9,24 +10,63 @@ module.exports = yeoman.generators.NamedBase.extend({
         yeoman.generators.NamedBase.apply(this, arguments);
 
         this.fileName = this.name + '.js';
+        this.srcConfigPath = this.templatePath('configs/' + this.fileName);
+        this.srcTaskPath = this.templatePath('tasks/' + this.fileName);
+        this.destConfigPath = this.destinationPath('gulp/configs/' + this.fileName);
+        this.destTaskPath = this.destinationPath('gulp/tasks/' + this.fileName);
+
+        yosay('Look at this guy ! He needs a gulp task ! AH !');
     },
-    copyFiles: function() {
-        var srcConfigPath = this.templatePath('configs/' + this.fileName);
-        var srcTaskPath = this.templatePath('tasks/' + this.fileName);
-        var destConfigPath = this.destinationPath('gulp/configs/' + this.fileName);
-        var destTaskPath = this.destinationPath('gulp/tasks/' + this.fileName);
-
+    checkIfTaskExists: function() {
         try {
-            fs.lstatSync(srcConfigPath);
-            fs.lstatSync(srcTaskPath);
-
-            // if the previous lines didn't trigger an exception, both files exist, we can copy them
-            this.copy(srcConfigPath, destConfigPath);
-            this.copy(srcTaskPath, destTaskPath);
+            fs.lstatSync(this.srcConfigPath);
+            fs.lstatSync(this.srcTaskPath);
         } catch (e) {
             this.log('This task doesn\'t exist. Exiting.');
             process.exit(1);
         }
+    },
+    checkIfGulpIsInstalled: function() {
+        try {
+            fs.lstatSync(this.destinationPath('gulpfile.js'));
+            this.isGulpInstalled = true;
+            console.log('fin du try');
+        } catch (e) {
+            this.log('dans le catch');
+            this.isGulpInstalled = false;
+        }
+    },
+    promptInstallGulp: function() {
+        if (!this.isGulpInstalled) {
+            var done = this.async();
+
+            this.prompt({
+                type: 'confirm',
+                name: 'installGulp',
+                message: 'It seems Gulp is not installed. Do you want to install it ?'
+            }, function(answers) {
+                this.installGulp = answers.installGulp;
+
+                done();
+            }.bind(this));
+        } else {
+            this.installGulp = false;
+        }
+    },
+    installGulp: function() {
+        if (this.installGulp) {
+            this.log('allo allo');
+            var done = this.async();
+
+            this.invoke('sillysmart:gulp')
+                .on('end', function() {
+                    done();
+                });
+        }
+    },
+    copyFiles: function() {
+        this.copy(this.srcConfigPath, this.destConfigPath);
+        this.copy(this.srcTaskPath, this.destTaskPath);
     },
     installDependencies: function() {
         if (taskDependencies[this.name]) {
