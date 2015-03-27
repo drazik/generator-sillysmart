@@ -30,9 +30,7 @@ module.exports = yeoman.generators.NamedBase.extend({
         try {
             fs.lstatSync(this.destinationPath('gulpfile.js'));
             this.isGulpInstalled = true;
-            console.log('fin du try');
         } catch (e) {
-            this.log('dans le catch');
             this.isGulpInstalled = false;
         }
     },
@@ -55,7 +53,6 @@ module.exports = yeoman.generators.NamedBase.extend({
     },
     installGulp: function() {
         if (this.installGulp) {
-            this.log('allo allo');
             var done = this.async();
 
             this.invoke('sillysmart:gulp')
