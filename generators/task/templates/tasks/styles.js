@@ -8,7 +8,7 @@ var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var rename = require('gulp-rename');
 var sourcemaps = require('gulp-sourcemaps');
-var config = require('../config/styles');
+var config = require('../configs/styles');
 
 var args = parseArgs(process.argv);
 
