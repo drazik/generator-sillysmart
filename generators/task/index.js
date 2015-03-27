@@ -2,6 +2,7 @@
 
 var yeoman = require('yeoman-generator');
 var fs = require('fs');
+var taskDependencies = require('./taskdependencies');
 
 module.exports = yeoman.generators.NamedBase.extend({
     constructor: function() {
@@ -23,7 +24,13 @@ module.exports = yeoman.generators.NamedBase.extend({
             this.copy(srcConfigPath, destConfigPath);
             this.copy(srcTaskPath, destTaskPath);
         } catch (e) {
-            this.log('This task doesn\'t exist. Exiting');
+            this.log('This task doesn\'t exist. Exiting.');
+            process.exit(1);
+        }
+    },
+    installDependencies: function() {
+        if (taskDependencies[this.name]) {
+            this.npmInstall(taskDependencies[this.name], { saveDev: true });
         }
     }
 });
