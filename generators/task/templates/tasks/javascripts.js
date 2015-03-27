@@ -6,7 +6,7 @@ var plumber = require('gulp-plumber');
 var util = require('gulp-util');
 var browserify = require('gulp-browserify');
 var uglify = require('gulp-uglifyjs');
-var config = require('../config').javascripts;
+var config = require('../configs/javascripts');
 
 var args = parseArgs(process.argv);
 

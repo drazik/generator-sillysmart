@@ -1,6 +1,6 @@
 {
   "name": "generator-sillysmart",
-  "version": "0.3.1",
+  "version": "1.0.0",
   "description": "Yeoman generator to kickstart a SillySmart Project",
   "keywords": [
     "yeoman-generator",
@@ -18,6 +18,7 @@
   "dependencies": {
     "rimraf": "^2.3.1",
     "tar": "^1.0.3",
-    "yeoman-generator": "^0.18.9"
+    "yeoman-generator": "^0.18.9",
+    "yosay": "^1.0.3"
   }
 }
