@@ -6,7 +6,7 @@ var plumber = require('gulp-plumber');
 var util = require('gulp-util');
 var imagemin = require('gulp-imagemin');
 var newer = require('gulp-newer');
-var config = require('../config').images;
+var config = require('../config/images');
 
 var args = parseArgs(process.argv);
 
