@@ -8,11 +8,6 @@ var tar = require('tar');
 var rimraf = require('rimraf');
 
 module.exports = yeoman.generators.Base.extend({
-    constructor: function() {
-        yeoman.generators.Base.apply(this, arguments);
-
-        yosay('So you want to install SillySmart... Here we go !');
-    },
     _getArchive: function(url, done) {
         http.get(url, function(response) {
             if (response.statusCode === 302) {

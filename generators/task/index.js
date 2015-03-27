@@ -14,8 +14,6 @@ module.exports = yeoman.generators.NamedBase.extend({
         this.srcTaskPath = this.templatePath('tasks/' + this.fileName);
         this.destConfigPath = this.destinationPath('gulp/configs/' + this.fileName);
         this.destTaskPath = this.destinationPath('gulp/tasks/' + this.fileName);
-
-        yosay('Look at this guy ! He needs a gulp task ! AH !');
     },
     checkIfTaskExists: function() {
         try {
