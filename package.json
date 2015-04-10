@@ -1,6 +1,6 @@
 {
   "name": "generator-sillysmart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yeoman generator to kickstart a SillySmart Project",
   "keywords": [
     "yeoman-generator",
@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/drazik/generator-sillysmart/issues"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "rimraf": "^2.3.1",
     "tar": "^1.0.3",
