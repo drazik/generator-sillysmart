@@ -8,7 +8,7 @@ module.exports = {
         browsers: [
             'last 2 versions',
             'Firefox ESR',
-            'IE >= 7',
+            'IE >= 8',
             'BlackBerry >= 7',
             'Android >= 2'
         ],
